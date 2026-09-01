@@ -1,0 +1,51 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "THERMECATEX DEV",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "THERMECATEX_DEV",
+            "tenant": "826129d4-b4a4-4e3b-b477-f0bcfcbf9970",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "authentication": "AAD",
+            "schemaUpdateMode": "ForceSync"
+        },
+         {  "name": "GROUPZEN_REC",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "GROUPZEN_REC",
+            "tenant": "groupzen.onmicrosoft.com",
+            "authentication": "AAD",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            "server": "https://businesscentral.dynamics.com"
+        },
+        {
+            "name": "EAM",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "EAM_DEV",
+            "tenant": "10d19e18-18f0-4a23-8cfc-52d11f49e726",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
+

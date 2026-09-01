@@ -1,0 +1,19 @@
+{
+    "al.codeAnalyzers": [
+       
+    ],
+    "al.enableCodeAnalysis": true,
+    "CRS.ObjectNamePrefix": "STD ",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.FileNamePatternExtensions": "<BaseId>-<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.DisableDefaultAlSnippets": true,
+    "CRS.AlSubFolderName": "src",
+    "al.defaultLaunchConfigurationName": "Docker",
+    "al.assemblyProbingPaths" : 
+    [
+        "./.netpackages",
+        "C:/WINDOWS/assembly",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/210/Service/Add-ins"
+    ]
+}
