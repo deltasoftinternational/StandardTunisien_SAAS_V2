@@ -6,7 +6,7 @@
     "CRS.ObjectNamePrefix": "STD ",
     "CRS.RemovePrefixFromFilename": true,
     "CRS.FileNamePatternExtensions": "<BaseId>-<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.OnSaveAlFileAction": "Rename",
+   // "CRS.OnSaveAlFileAction": "Rename",
     "CRS.DisableDefaultAlSnippets": true,
     "CRS.AlSubFolderName": "src",
     "al.defaultLaunchConfigurationName": "Docker",
