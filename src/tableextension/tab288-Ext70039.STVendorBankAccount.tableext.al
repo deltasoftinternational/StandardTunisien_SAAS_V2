@@ -1,8 +1,8 @@
-tableextension 71039 "STVendor Bank Account" extends "Vendor Bank Account" //288
+tableextension 70039 "STVendor Bank Account" extends "Vendor Bank Account" //288
 {
     fields
     {
-        field(71000; "STNote"; Text[100])
+        field(70000; "STNote"; Text[100])
         {
             Caption = 'Note';
         }

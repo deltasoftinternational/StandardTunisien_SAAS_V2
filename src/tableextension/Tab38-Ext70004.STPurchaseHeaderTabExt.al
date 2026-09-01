@@ -1,8 +1,8 @@
-tableextension 71004 "ST PurchaseHeaderTabExt" extends "Purchase Header" //38
+tableextension 70004 "ST PurchaseHeaderTabExt" extends "Purchase Header" //38
 {
     fields
     {
-        field(71006; "STApply Stamp Fiscal"; Boolean)
+        field(70006; "STApply Stamp Fiscal"; Boolean)
         {
             CaptionML = FRA = 'Appliquer timbre fiscal';
             DataClassification = ToBeClassified;
@@ -19,7 +19,7 @@ tableextension 71004 "ST PurchaseHeaderTabExt" extends "Purchase Header" //38
                 end;
             end;
         }
-        field(71001; "STStamp Fiscal Amount"; Decimal)
+        field(70001; "STStamp Fiscal Amount"; Decimal)
         {
             CaptionML = FRA = 'Montant timbre';
             DataClassification = ToBeClassified;

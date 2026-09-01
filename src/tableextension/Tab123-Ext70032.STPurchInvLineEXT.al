@@ -1,19 +1,19 @@
-tableextension 71032 "ST PurchInvLine EXT" extends "Purch. Inv. Line" //123
+tableextension 70032 "ST PurchInvLine EXT" extends "Purch. Inv. Line" //123
 {
     fields
     {
-        field(71000; Fodec; Boolean)
+        field(70000; Fodec; Boolean)
         {
             Caption = 'Fodec';
             DataClassification = ToBeClassified;
         }
 
-        field(71001; "STStamp Fiscal Amount"; Decimal)
+        field(70001; "STStamp Fiscal Amount"; Decimal)
         {
             CaptionML = FRA = 'Montant timbre';
             DataClassification = ToBeClassified;
         }
-        field(71006; "STApply Stamp Fiscal"; Boolean)
+        field(70006; "STApply Stamp Fiscal"; Boolean)
         {
             CaptionML = FRA = 'Appliquer timbre fiscal';
             DataClassification = ToBeClassified;

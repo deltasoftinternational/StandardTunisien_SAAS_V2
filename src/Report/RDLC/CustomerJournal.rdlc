@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="FORMAT_TODAY_0_4_">
+          <DataField>FORMAT_TODAY_0_4_</DataField>
+        </Field>
+        <Field Name="COMPANYNAME">
+          <DataField>COMPANYNAME</DataField>
+        </Field>
+        <Field Name="STRSUBSTNO_Text006_USERID_">
+          <DataField>STRSUBSTNO_Text006_USERID_</DataField>
+        </Field>
+        <Field Name="STRSUBSTNO_Text007____">
+          <DataField>STRSUBSTNO_Text007____</DataField>
+        </Field>
+        <Field Name="UserCaption">
+          <DataField>UserCaption</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__TABLECAPTION__________Filter">
+          <DataField>Cust__Ledger_Entry__TABLECAPTION__________Filter</DataField>
+        </Field>
+        <Field Name="Filter">
+          <DataField>Filter</DataField>
+        </Field>
+        <Field Name="SourceCode_TABLECAPTION__________Filter2">
+          <DataField>SourceCode_TABLECAPTION__________Filter2</DataField>
+        </Field>
+        <Field Name="Filter2">
+          <DataField>Filter2</DataField>
+        </Field>
+        <Field Name="DebitTotal">
+          <DataField>DebitTotal</DataField>
+        </Field>
+        <Field Name="DebitTotalFormat">
+          <DataField>DebitTotalFormat</DataField>
+        </Field>
+        <Field Name="CreditTotal">
+          <DataField>CreditTotal</DataField>
+        </Field>
+        <Field Name="CreditTotalFormat">
+          <DataField>CreditTotalFormat</DataField>
+        </Field>
+        <Field Name="Date_Period_Type">
+          <DataField>Date_Period_Type</DataField>
+        </Field>
+        <Field Name="Date_Period_Start">
+          <DataField>Date_Period_Start</DataField>
+        </Field>
+        <Field Name="Customer_JournalCaption">
+          <DataField>Customer_JournalCaption</DataField>
+        </Field>
+        <Field Name="Posting_DateCaption">
+          <DataField>Posting_DateCaption</DataField>
+        </Field>
+        <Field Name="Document_No_Caption">
+          <DataField>Document_No_Caption</DataField>
+        </Field>
+        <Field Name="Customer_No_Caption">
+          <DataField>Customer_No_Caption</DataField>
+        </Field>
+        <Field Name="Due_DateCaption">
+          <DataField>Due_DateCaption</DataField>
+        </Field>
+        <Field Name="Pmt__Discount_DateCaption">
+          <DataField>Pmt__Discount_DateCaption</DataField>
+        </Field>
+        <Field Name="Pmt__Disc__Given__LCY_Caption">
+          <DataField>Pmt__Disc__Given__LCY_Caption</DataField>
+        </Field>
+        <Field Name="DescriptionCaption">
+          <DataField>DescriptionCaption</DataField>
+        </Field>
+        <Field Name="Currency_CodeCaption">
+          <DataField>Currency_CodeCaption</DataField>
+        </Field>
+        <Field Name="DebitCaption">
+          <DataField>DebitCaption</DataField>
+        </Field>
+        <Field Name="CreditCaption">
+          <DataField>CreditCaption</DataField>
+        </Field>
+        <Field Name="Debit__LCY_Caption">
+          <DataField>Debit__LCY_Caption</DataField>
+        </Field>
+        <Field Name="Credit__LCY_Caption">
+          <DataField>Credit__LCY_Caption</DataField>
+        </Field>
+        <Field Name="Grand_Total__Caption">
+          <DataField>Grand_Total__Caption</DataField>
+        </Field>
+        <Field Name="Date__Period_Type_">
+          <DataField>Date__Period_Type_</DataField>
+        </Field>
+        <Field Name="Date__Period_Name____YearString">
+          <DataField>Date__Period_Name____YearString</DataField>
+        </Field>
+        <Field Name="DateRecNo">
+          <DataField>DateRecNo</DataField>
+        </Field>
+        <Field Name="SourceCode_Code">
+          <DataField>SourceCode_Code</DataField>
+        </Field>
+        <Field Name="SourceCode_Description">
+          <DataField>SourceCode_Description</DataField>
+        </Field>
+        <Field Name="PeriodTypeNo">
+          <DataField>PeriodTypeNo</DataField>
+        </Field>
+        <Field Name="SourceCode2_Code">
+          <DataField>SourceCode2_Code</DataField>
+        </Field>
+        <Field Name="SourceCode2_Description">
+          <DataField>SourceCode2_Description</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY__">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY__</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY__Format">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY__Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY__">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY__</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY__Format">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY__Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Posting_Date_">
+          <DataField>Cust__Ledger_Entry__Posting_Date_</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Document_No__">
+          <DataField>Cust__Ledger_Entry__Document_No__</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Customer_No__">
+          <DataField>Cust__Ledger_Entry__Customer_No__</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Due_Date_">
+          <DataField>Cust__Ledger_Entry__Due_Date_</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Pmt__Discount_Date_">
+          <DataField>Cust__Ledger_Entry__Pmt__Discount_Date_</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Pmt__Disc__Given__LCY__">
+          <DataField>Cust__Ledger_Entry__Pmt__Disc__Given__LCY__</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Pmt__Disc__Given__LCY__Format">
+          <DataField>Cust__Ledger_Entry__Pmt__Disc__Given__LCY__Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry_Description">
+          <DataField>Cust__Ledger_Entry_Description</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Currency_Code_">
+          <DataField>Cust__Ledger_Entry__Currency_Code_</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount_">
+          <DataField>Cust__Ledger_Entry__Debit_Amount_</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount_Format">
+          <DataField>Cust__Ledger_Entry__Debit_Amount_Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount_">
+          <DataField>Cust__Ledger_Entry__Credit_Amount_</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount_Format">
+          <DataField>Cust__Ledger_Entry__Credit_Amount_Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY___Control1120096">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY___Control1120096</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY___Control1120096Format">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY___Control1120096Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY___Control1120099">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY___Control1120099</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY___Control1120099Format">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY___Control1120099Format</DataField>
+        </Field>
+        <Field Name="SourceCode2_Code_Control1120101">
+          <DataField>SourceCode2_Code_Control1120101</DataField>
+        </Field>
+        <Field Name="SourceCode2_Description_Control1120103">
+          <DataField>SourceCode2_Description_Control1120103</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY___Control1120107">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY___Control1120107</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY___Control1120107Format">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY___Control1120107Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY___Control1120109">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY___Control1120109</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY___Control1120109Format">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY___Control1120109Format</DataField>
+        </Field>
+        <Field Name="SourceCode2_Code_Control1120111">
+          <DataField>SourceCode2_Code_Control1120111</DataField>
+        </Field>
+        <Field Name="SourceCode2_Description_Control1120113">
+          <DataField>SourceCode2_Description_Control1120113</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY___Control1120117">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY___Control1120117</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Debit_Amount__LCY___Control1120117Format">
+          <DataField>Cust__Ledger_Entry__Debit_Amount__LCY___Control1120117Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY___Control1120119">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY___Control1120119</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry__Credit_Amount__LCY___Control1120119Format">
+          <DataField>Cust__Ledger_Entry__Credit_Amount__LCY___Control1120119Format</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry_Entry_No_">
+          <DataField>Cust__Ledger_Entry_Entry_No_</DataField>
+        </Field>
+        <Field Name="Cust__Ledger_Entry_Source_Code">
+          <DataField>Cust__Ledger_Entry_Source_Code</DataField>
+        </Field>
+        <Field Name="TotalCaption">
+          <DataField>TotalCaption</DataField>
+        </Field>
+        <Field Name="TotalCaption_Control1120105">
+          <DataField>TotalCaption_Control1120105</DataField>
+        </Field>
+        <Field Name="TotalCaption_Control1120115">
+          <DataField>TotalCaption_Control1120115</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

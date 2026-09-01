@@ -1,8 +1,8 @@
-tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //10863
+tableextension 70001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //10863
 {
     fields
     {
-        field(71000; "STCompta. Retenue à la source"; Boolean)
+        field(70000; "STCompta. Retenue à la source"; Boolean)
         {
             CaptionML = FRA = 'Compta. Retenue à la source';
             DataClassification = ToBeClassified;
@@ -30,7 +30,7 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
                     "STCompte Retenue à la source" := '';
             end;
         }
-        field(71001; "STCompte Retenue à la source"; Code[20])
+        field(70001; "STCompte Retenue à la source"; Code[20])
         {
             CaptionML = FRA = 'Compte Retenue à la source';
             TableRelation = "G/L Account";
@@ -45,7 +45,7 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
             end;
 
         }
-        field(71002; "STAnnuler Compta Retn. à la Sour"; Boolean)
+        field(70002; "STAnnuler Compta Retn. à la Sour"; Boolean)
         {
             CaptionML = FRA = 'Annuler Compta Retn. à la Source';
             DataClassification = ToBeClassified;
@@ -64,13 +64,13 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
             end;
         }
 
-        field(71003; "STBlocage Frs Solde Debit"; Boolean)
+        field(70003; "STBlocage Frs Solde Debit"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Blocage Fournisseur solde débit';
         }
 
-        field(71050; "STInclure Commission"; Boolean)
+        field(70050; "STInclure Commission"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Inclure Commission';
@@ -96,7 +96,7 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
         }
 
 
-        field(71051; "StCompte Commission"; Code[20])
+        field(70051; "StCompte Commission"; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Compte Commission';
@@ -105,7 +105,7 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
 
         }
 
-        field(71052; "StCompte TVA/Commission"; Code[20])
+        field(70052; "StCompte TVA/Commission"; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Compte TVA/Commission';
@@ -113,7 +113,7 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
 
         }
 
-        field(71053; "StPerTVA"; Decimal)
+        field(70053; "StPerTVA"; Decimal)
         {
             DataClassification = ToBeClassified;
             Caption = '% TVA';
@@ -121,7 +121,7 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
 
         }
 
-        field(71054; "StCompte Int"; Code[20])
+        field(70054; "StCompte Int"; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Compte Interrêt';
@@ -129,7 +129,7 @@ tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //1
 
         }
 
-        field(71055; "ST Account vendor LC"; Boolean)
+        field(70055; "ST Account vendor LC"; Boolean)
         {
             caption = 'Account vendor LC';
             trigger onvalidate()

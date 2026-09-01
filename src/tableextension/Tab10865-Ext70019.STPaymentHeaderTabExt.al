@@ -1,4 +1,4 @@
-tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
+tableextension 70019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
 {
     fields
     {
@@ -26,24 +26,24 @@ tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
                         rec."Source Code" := PaymentStep."Source Code";
             end;
         }
-        field(71000; "STDate Création"; DateTime)
+        field(70000; "STDate Création"; DateTime)
         {
             DataClassification = ToBeClassified;
             Caption = 'Date création';
             Editable = false;
         }
-        field(71001; "STCréer par"; Code[50])
+        field(70001; "STCréer par"; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Créer par';
             Editable = false;
         }
-        field(71002; "STType Règlement"; Code[10]) //TODO:
+        field(70002; "STType Règlement"; Code[10]) //TODO:
         {
             DataClassification = ToBeClassified;
             Caption = 'Type règlement';
         }
-        field(71003; STCoffre; Code[20])
+        field(70003; STCoffre; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Coffre';
@@ -70,19 +70,19 @@ tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
             end;
         }
 
-        field(71004; STAgence; Code[10])
+        field(70004; STAgence; Code[10])
 
         {
             caption = 'Agence';
         }
-        field(71005; Type_ED; Option)
+        field(70005; Type_ED; Option)
         {
             DataClassification = ToBeClassified;
             Description = 'DELTA STD 01';
             OptionCaption = 'Encaissement,Décaissement';
             OptionMembers = Encaissement,"Décaissement";
         }
-        field(71007; "STType paiement"; Option)
+        field(70007; "STType paiement"; Option)
         {
             DataClassification = ToBeClassified;
             Description = 'DELTA STD 01';
@@ -104,7 +104,7 @@ tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
                 //>>End DELTA 01
             end;
         }
-        field(71008; STCodeSituationPaiement; Code[20])
+        field(70008; STCodeSituationPaiement; Code[20])
         {
             Caption = 'Code situation paiement';
             Editable = false;
@@ -117,7 +117,7 @@ tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
                 lrecPaymentLine.ModifyAll(STCodeSituationPaiement, STCodeSituationPaiement);
             end;
         }
-        field(71009; STSituationPaiement; Text[50])
+        field(70009; STSituationPaiement; Text[50])
         {
             Caption = 'Situation Paiement';
             Editable = false;
@@ -125,11 +125,11 @@ tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
             CalcFormula = lookup(STSituationPaiement.Description WHERE(Code = FIELD(STCodeSituationPaiement)));
         }
 
-        field(71010; "STbank slip"; code[20])
+        field(70010; "STbank slip"; code[20])
         {
             Caption = 'N° Bordereau banque';
         }
-        field(71011; "STreason code"; code[10])
+        field(70011; "STreason code"; code[10])
         {
             Caption = 'Code motif';
             DataClassification = ToBeClassified;
@@ -163,52 +163,52 @@ tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
 
             end;
         }
-        field(71012; "ST LC shipping date"; Date)
+        field(70012; "ST LC shipping date"; Date)
         {
             CaptionML = ENU = 'LC Latest Shipping Date', FRA = 'Date ultime d''expédition LC';
             DataClassification = ToBeClassified;
         }
-        field(71013; "ST LC validity date"; Date)
+        field(70013; "ST LC validity date"; Date)
         {
             CaptionML = ENU = 'LC Validity Date', FRA = 'Date validité LC';
             DataClassification = ToBeClassified;
         }
-        field(71014; "ST Opninig Deadline"; Date)
+        field(70014; "ST Opninig Deadline"; Date)
         {
             Caption = 'Date limite d''ouverture';
             DataClassification = ToBeClassified;
         }
-        field(71015; "ST Import Title Reference"; code[20])
+        field(70015; "ST Import Title Reference"; code[20])
         {
             Caption = 'Réference titre d''import';
             DataClassification = ToBeClassified;
         }
-        field(71016; "ST Import Title Date"; Date)
+        field(70016; "ST Import Title Date"; Date)
         {
             Caption = 'Date titre d''import';
             DataClassification = ToBeClassified;
         }
-        field(71017; "ST Opninig Fees"; Decimal)
+        field(70017; "ST Opninig Fees"; Decimal)
         {
             Caption = 'Commissions ouverture';
             DataClassification = ToBeClassified;
         }
-        field(71018; "ST Change Fees"; Decimal)
+        field(70018; "ST Change Fees"; Decimal)
         {
             Caption = 'Commissions modifications';
             DataClassification = ToBeClassified;
         }
-        field(71019; "ST Realization Fees"; Decimal)
+        field(70019; "ST Realization Fees"; Decimal)
         {
             Caption = 'Commissions réalisation';
             DataClassification = ToBeClassified;
         }
-        field(71020; "ST Deffered Payment Fees"; Decimal)
+        field(70020; "ST Deffered Payment Fees"; Decimal)
         {
             Caption = 'Commissions paiement différé';
             DataClassification = ToBeClassified;
         }
-        field(71021; STType_Reg; Option)
+        field(70021; STType_Reg; Option)
         {
             DataClassification = ToBeClassified;
             Caption = 'Type règlements';

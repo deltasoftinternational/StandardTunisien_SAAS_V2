@@ -1,8 +1,8 @@
-tableextension 71028 "ItemEXT" extends Item //27
+tableextension 70028 "ItemEXT" extends Item //27
 {
     fields
     {
-        field(71000; FODEC; Boolean)
+        field(70000; FODEC; Boolean)
         {
             Caption = 'FODEC';
             DataClassification = ToBeClassified;

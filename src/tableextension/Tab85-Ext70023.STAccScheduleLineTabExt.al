@@ -1,8 +1,8 @@
-tableextension 71023 "ST Acc.ScheduleLineTabExt" extends "Acc. Schedule Line" //85
+tableextension 70023 "ST Acc.ScheduleLineTabExt" extends "Acc. Schedule Line" //85
 {
     fields
     {
-        field(71000; "STTotalisation debiteur"; Text[250])
+        field(70000; "STTotalisation debiteur"; Text[250])
         {
             Caption = 'Totalisation débiteur';
 
@@ -23,7 +23,7 @@ tableextension 71023 "ST Acc.ScheduleLineTabExt" extends "Acc. Schedule Line" //
                 END;
             End;
         }
-        field(71001; "STTotalisation Crediteur"; Text[250])
+        field(70001; "STTotalisation Crediteur"; Text[250])
         {
             Caption = 'Totalisation créditeur';
             DataClassification = ToBeClassified;
@@ -43,7 +43,7 @@ tableextension 71023 "ST Acc.ScheduleLineTabExt" extends "Acc. Schedule Line" //
                 END;
             End;
         }
-        field(71002; STNote; Code[10])
+        field(70002; STNote; Code[10])
         {
             Caption = 'Note';
             DataClassification = ToBeClassified;

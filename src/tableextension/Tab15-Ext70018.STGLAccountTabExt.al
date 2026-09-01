@@ -1,8 +1,8 @@
-tableextension 71018 STGLAccountTabExt extends "G/L Account"
+tableextension 70018 STGLAccountTabExt extends "G/L Account"
 {
     fields
     {
-        field(71011; "Net Debit Amount"; Decimal)
+        field(70011; "Net Debit Amount"; Decimal)
         {
             AutoFormatType = 1;
             BlankZero = true;
@@ -16,7 +16,7 @@ tableextension 71018 STGLAccountTabExt extends "G/L Account"
             Editable = false;
             FieldClass = FlowField;
         }
-        field(71010; "Net Credit Amount"; Decimal)
+        field(70010; "Net Credit Amount"; Decimal)
         {
             AutoFormatType = 1;
             BlankZero = true;
@@ -31,12 +31,12 @@ tableextension 71018 STGLAccountTabExt extends "G/L Account"
             Editable = false;
             FieldClass = FlowField;
         }
-        field(71012; "Due Date Mandatory Gen Journal"; Boolean)
+        field(70012; "Due Date Mandatory Gen Journal"; Boolean)
         {
             Caption = 'Date d''échéance obligatoire feuille comptable';
 
         }
-        field(71013; "Net Balance (LCY)"; Decimal)
+        field(70013; "Net Balance (LCY)"; Decimal)
         {
 
             AutoFormatType = 1;

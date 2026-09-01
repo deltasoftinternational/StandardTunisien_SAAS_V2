@@ -1,26 +1,26 @@
-tableextension 71024 "ST Cust. Ledger Entry TabExt" extends "Cust. Ledger Entry" //21
+tableextension 70024 "ST Cust. Ledger Entry TabExt" extends "Cust. Ledger Entry" //21
 {
     fields
     {
-        field(71000; "STOrder No."; Code[20])
+        field(70000; "STOrder No."; Code[20])
         {
             Caption = 'N° commande';
             DataClassification = ToBeClassified;
         }
-        field(71001; "STPayment Method Code"; Code[10])
+        field(70001; "STPayment Method Code"; Code[10])
         {
             Caption = 'Mode de règlement';
             TableRelation = "Payment Method".Code;
             Editable = false;
         }
 
-        field(71002; "STPayment terms Code"; Code[10])
+        field(70002; "STPayment terms Code"; Code[10])
         {
             Caption = 'Payment Terms code';
             TableRelation = "Payment Terms";
             Editable = false;
         }
-        field(71008; STOption; enum "ST Option step")
+        field(70008; STOption; enum "ST Option step")
         {
             DataClassification = ToBeClassified;
             Caption = 'Payment Option';

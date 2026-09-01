@@ -1,4 +1,4 @@
-tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
+tableextension 70003 "ST PaymentLineExt" extends "Payment Line" //10866
 {
     fields
     {
@@ -19,7 +19,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 
             end;
         }
-        field(71000; "STCode Retenue à la Source"; Code[10])
+        field(70000; "STCode Retenue à la Source"; Code[10])
         {
 
             Caption = 'Code retenue à la source';
@@ -42,7 +42,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             end;
 
         }
-        field(71001; "STMontant Retenue"; Decimal)
+        field(70001; "STMontant Retenue"; Decimal)
         {
             AutoFormatExpression = "Currency Code";
             AutoFormatType = 1;
@@ -70,19 +70,19 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                         "STMontant Retenue DS" := ROUND("STMontant Retenue", RecGGeneralLedgerSetup."Amount Rounding Precision");
             end;
         }
-        field(71002; "STMontant Retenue Validé"; Decimal)
+        field(70002; "STMontant Retenue Validé"; Decimal)
         {
             AutoFormatExpression = "Currency Code";
             AutoFormatType = 1;
             Caption = 'Montant retenue validé';
             Editable = false;
         }
-        field(71003; "STMontant Retenue DS"; Decimal)
+        field(70003; "STMontant Retenue DS"; Decimal)
         {
             AutoFormatType = 2;
             Caption = 'Montant retenue DS';
         }
-        field(71004; "STMontant Retenue Validé DS"; Decimal)
+        field(70004; "STMontant Retenue Validé DS"; Decimal)
         {
             AutoFormatType = 2;
             Caption = 'Montant retenue validé DS';
@@ -90,48 +90,48 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
         }
 
 
-        field(71005; "STAppliquer Retenue Source"; Boolean)
+        field(70005; "STAppliquer Retenue Source"; Boolean)
         {
             Caption = 'Appliquer retenue à la source';
         }
 
-        field(71006; "STMontant Initial"; Decimal)
+        field(70006; "STMontant Initial"; Decimal)
         {
             AutoFormatExpression = "Currency Code";
             AutoFormatType = 1;
             Caption = 'Montant initial';
         }
-        field(71007; "STMontant Initial DS"; Decimal)
+        field(70007; "STMontant Initial DS"; Decimal)
         {
             AutoFormatType = 2;
             Caption = 'Montant initial DS';
         }
-        field(71008; "STDrawee Reference1"; Text[100])
+        field(70008; "STDrawee Reference1"; Text[100])
         {
             DataClassification = ToBeClassified;
             CaptionML = FRA = 'Référence tiré', ENU = 'Drawee Reference';
         }
 
-        field(71009; "STLibellé"; Text[100])
+        field(70009; "STLibellé"; Text[100])
         {
             DataClassification = ToBeClassified;
             Caption = 'Libellé';
         }
 
-        field(71010; STCommentaires; Text[100])
+        field(70010; STCommentaires; Text[100])
         {
             DataClassification = ToBeClassified;
             Caption = 'Commentaires';
         }
 
-        field(71011; "STEn Banque"; Boolean)
+        field(70011; "STEn Banque"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'En banque';
             Editable = false;
         }
 
-        field(71012; "STGroupe Comptabilisation"; Code[10])
+        field(70012; "STGroupe Comptabilisation"; Code[10])
         {
             DataClassification = ToBeClassified;
             Caption = 'Groupe comptabilisation';
@@ -141,29 +141,29 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             ELSE
             IF ("Account Type" = CONST(5)) "FA Posting Group";
         }
-        field(71013; "STAvance ouvert"; Boolean)
+        field(70013; "STAvance ouvert"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Avance ouvert';
         }
-        field(71014; "STJob No."; Code[20])
+        field(70014; "STJob No."; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Job No.';
         }
 
-        field(71015; "STCode_Mode_Règlement"; Text[30])
+        field(70015; "STCode_Mode_Règlement"; Text[30])
         {
             DataClassification = ToBeClassified;
             Caption = 'Code mode règlement';
         }
-        field(71016; "STRib_Entête"; Code[20])
+        field(70016; "STRib_Entête"; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Rib entête';
         }
 
-        field(71017; "STMontant Frais a Déduire"; Decimal)
+        field(70017; "STMontant Frais a Déduire"; Decimal)
         {
             DataClassification = ToBeClassified;
             Caption = 'Montant frais à déduire';
@@ -174,7 +174,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                 "STAssiette RS" := "STMontant Initial" - "STMontant Frais a Déduire" + "STMnt Déduction";
             end;
         }
-        field(71018; "STAssiette RS"; Decimal)
+        field(70018; "STAssiette RS"; Decimal)
         {
             DataClassification = ToBeClassified;
             DecimalPlaces = 3 : 3;
@@ -186,7 +186,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                 "STMontant Frais a Déduire" := "STMontant Initial" - "STAssiette RS" + "STMnt Déduction";
             end;
         }
-        field(71019; "STMnt Déduction"; Decimal)
+        field(70019; "STMnt Déduction"; Decimal)
         {
             DataClassification = ToBeClassified;
             DecimalPlaces = 3 : 3;
@@ -197,45 +197,45 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                 "STAssiette RS" := "STMontant Initial" - "STMontant Frais a Déduire" + "STMnt Déduction";
             end;
         }
-        field(71020; STCoffre; Code[20])
+        field(70020; STCoffre; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Coffre';
             TableRelation = "ST Coffre";
         }
-        field(71021; "STType Règlement"; Code[10])
+        field(70021; "STType Règlement"; Code[10])
         {
             DataClassification = ToBeClassified;
             Caption = 'Type règlement';
         }
 
-        field(71022; "STCoffre Origine"; Code[20])
+        field(70022; "STCoffre Origine"; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Coffre origine';
         }
 
-        field(71024; STObservations; Text[200])
+        field(70024; STObservations; Text[200])
         {
             DataClassification = ToBeClassified;
             Caption = 'Observations';
         }
-        field(71023; "STInvoice No."; Code[20])
+        field(70023; "STInvoice No."; Code[20])
         {
             DataClassification = ToBeClassified;
             Caption = 'Invoice No.';
         }
-        field(71025; STCode_Motif; Code[10])
+        field(70025; STCode_Motif; Code[10])
         {
             DataClassification = ToBeClassified;
             Caption = 'Code motif';
             TableRelation = "Reason Code".Code;
         }
-        field(71026; "STOrder Type"; Enum "ST Order Type Enum")
+        field(70026; "STOrder Type"; Enum "ST Order Type Enum")
         {
             Caption = 'Order Type';
         }
-        field(71027; "STOrder No."; Code[20])
+        field(70027; "STOrder No."; Code[20])
         {
             Caption = 'N° commande';
             DataClassification = ToBeClassified;
@@ -288,19 +288,19 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                 end;
             end;
         }
-        field(71028; "STNo. chèque"; Integer)
+        field(70028; "STNo. chèque"; Integer)
         {
             DataClassification = ToBeClassified;
             Description = 'DELTA STD 01';
         }
-        field(71033; "STType paiement"; Option)
+        field(70033; "STType paiement"; Option)
         {
             DataClassification = ToBeClassified;
             Description = 'DELTA STD 01';
             OptionCaption = 'Paiement,Avance';
             OptionMembers = Paiement,Avance;
         }
-        field(71034; "ST Check No"; Code[35])
+        field(70034; "ST Check No"; Code[35])
         {
             DataClassification = ToBeClassified;
             Caption = 'No chéque';
@@ -436,7 +436,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                 END;
             end;
         }
-        field(71035; "ST Réference chéque"; Code[10])
+        field(70035; "ST Réference chéque"; Code[10])
         {
             DataClassification = ToBeClassified;
             Caption = 'Réference chéque';
@@ -520,7 +520,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                 //>>DELTA 21
             end;
         }
-        field(71036; "Numéro CIN"; code[10])
+        field(70036; "Numéro CIN"; code[10])
         {
             Caption = 'Numéro CIN';
             DataClassification = ToBeClassified;
@@ -535,19 +535,19 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                     Error(Text004, PaymentLedgerSetup."Nombre caractères CIN");
             end;
         }
-        field(71037; "Date CIN"; Date)
+        field(70037; "Date CIN"; Date)
         {
             Caption = 'Date CIN';
             DataClassification = ToBeClassified;
         }
 
-        field(71029; "Applies-to Invoices Nos."; Code[1024])
+        field(70029; "Applies-to Invoices Nos."; Code[1024])
         {
             Caption = 'N° factures lettrage';
             DataClassification = ToBeClassified;
             Editable = false;
         }
-        field(71030; STType_ED; Option)
+        field(70030; STType_ED; Option)
         {
             DataClassification = ToBeClassified;
             OptionCaption = 'Encaissement,Décaissement';
@@ -558,13 +558,13 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
         {
             Caption = 'comptabilisé';
         }
-        field(71031; STCodeSituationPaiement; Code[20])
+        field(70031; STCodeSituationPaiement; Code[20])
         {
             Caption = 'Code situation paiement';
             Editable = false;
             TableRelation = STSituationPaiement.Code;
         }
-        field(71032; STSituationPaiement; Text[50])
+        field(70032; STSituationPaiement; Text[50])
         {
             Caption = 'Situation Paiement';
             Editable = false;
@@ -572,11 +572,11 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             CalcFormula = lookup(STSituationPaiement.Description WHERE(Code = FIELD(STCodeSituationPaiement)));
         }
 
-        field(71038; STCertifAval; Boolean)
+        field(70038; STCertifAval; Boolean)
         {
             Caption = 'Certifié/Avalisé';
         }
-        field(71040; "Banque Societe"; Text[50])
+        field(70040; "Banque Societe"; Text[50])
         {
             Caption = 'Banque Société';
             Editable = false;
@@ -585,7 +585,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 
         }
 
-        field(71041; "STCréer par"; Code[50])
+        field(70041; "STCréer par"; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Créer par';
@@ -593,20 +593,20 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 
         }
 
-        field(71042; "STSlip Origin No."; Code[20])
+        field(70042; "STSlip Origin No."; Code[20])
         {
             Caption = 'Bordereau origine';
             Editable = false;
         }
 
-        field(71043; "STSlip Origin line No."; Integer)
+        field(70043; "STSlip Origin line No."; Integer)
         {
             Caption = 'N° ligne bordereau origine';
             Editable = false;
         }
 
 
-        field(71051; "STMontant Commission"; Decimal)
+        field(70051; "STMontant Commission"; Decimal)
         {
             Caption = 'Montant Commission';
             DataClassification = ToBeClassified;
@@ -628,7 +628,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             end;
         }
 
-        field(71052; "STMontant Commission DS"; Decimal)
+        field(70052; "STMontant Commission DS"; Decimal)
         {
             Caption = 'Montant Commission DS';
             DataClassification = ToBeClassified;
@@ -650,7 +650,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             end;
         }
 
-        field(71053; "STMontant TVA Commission"; Decimal)
+        field(70053; "STMontant TVA Commission"; Decimal)
         {
             Caption = 'Montant TVA Commission';
             DataClassification = ToBeClassified;
@@ -669,7 +669,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 
             end;
         }
-        field(71054; "STMontant TVA Commission DS"; Decimal)
+        field(70054; "STMontant TVA Commission DS"; Decimal)
         {
             Caption = 'Montant TVA sur Commission DS';
             DataClassification = ToBeClassified;
@@ -689,7 +689,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             end;
         }
 
-        field(71055; "STMontant Interret"; Decimal)
+        field(70055; "STMontant Interret"; Decimal)
         {
             Caption = 'Montant Interrêt';
             DataClassification = ToBeClassified;
@@ -709,7 +709,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 
             end;
         }
-        field(71056; "STMontant Interret DS"; Decimal)
+        field(70056; "STMontant Interret DS"; Decimal)
         {
             Caption = 'Montant Interrêt DS';
             DataClassification = ToBeClassified;
@@ -730,18 +730,18 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             end;
         }
 
-        field(71057; "ST LC confirmed"; Boolean)
+        field(70057; "ST LC confirmed"; Boolean)
         {
             CaptionML = ENU = 'LC Confirmed', FRA = 'LC confirmé';
         }
-        field(71058; "ST REG Debit Filter"; CODE[20])
+        field(70058; "ST REG Debit Filter"; CODE[20])
         {
             Caption = 'REG Debit filtre';
             Editable = false;
             FieldClass = FlowFilter;
         }
 
-        field(71059; "ST REG Debit"; Decimal)
+        field(70059; "ST REG Debit"; Decimal)
         {
 
             CaptionML = ENU = 'Debit Settlement Account', FRA = 'Réglement Débit/Compte';
@@ -756,14 +756,14 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 
         }
 
-        field(71060; "ST FED progress Filter"; code[20])
+        field(70060; "ST FED progress Filter"; code[20])
         {
             Caption = 'FED In Progress Filter';
             Editable = false;
             FieldClass = FlowFilter;
 
         }
-        field(71061; "ST FED progress"; Decimal)
+        field(70061; "ST FED progress"; Decimal)
         {
 
             Caption = 'FED In Progress';
@@ -776,13 +776,13 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                                                                    "Copied To No." = const('')));
         }
 
-        field(71062; "ST FED Accepted filter"; CODE[20])
+        field(70062; "ST FED Accepted filter"; CODE[20])
         {
             Caption = 'FED Accepted Filtre';
             Editable = false;
             FieldClass = FlowFilter;
         }
-        field(71063; "ST FED Accepted"; Decimal)
+        field(70063; "ST FED Accepted"; Decimal)
         {
 
             Caption = 'FED Accepted';
@@ -796,13 +796,13 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                                                                          "Copied To No." = const('')));
         }
 
-        field(71064; "ST FED Regle filter"; CODE[20])
+        field(70064; "ST FED Regle filter"; CODE[20])
         {
             CaptionML = ENU = 'FED Regle Filter', FRA = 'FED Reglé filtre';
             Editable = false;
             FieldClass = FlowFilter;
         }
-        field(71065; "ST FED regle"; Decimal)
+        field(70065; "ST FED regle"; Decimal)
         {
 
             Caption = 'FED Reglé';
@@ -817,25 +817,25 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
         }
 
 
-        field(71066; "ST Prorogation 1 filter"; CODE[20])
+        field(70066; "ST Prorogation 1 filter"; CODE[20])
         {
             Caption = 'Prorogation 1 Filter';
             Editable = false;
             FieldClass = FlowFilter;
         }
-        field(71067; "ST Prorogation 2 filter"; CODE[20])
+        field(70067; "ST Prorogation 2 filter"; CODE[20])
         {
             Caption = 'Prorogation 2 Filter';
             Editable = false;
             FieldClass = FlowFilter;
         }
-        field(71068; "ST Prorogation 3 filter"; CODE[20])
+        field(70068; "ST Prorogation 3 filter"; CODE[20])
         {
             Caption = 'Prorogation 3 Filter';
             Editable = false;
             FieldClass = FlowFilter;
         }
-        field(71069; "ST Prorogation 1"; Decimal)
+        field(70069; "ST Prorogation 1"; Decimal)
         {
 
             Caption = 'Prorogation 1';
@@ -848,7 +848,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                                                                   "STSlip Origin line No." = field("Line No."),
                                                                      "Copied To No." = const('')));
         }
-        field(71070; "ST Prorogation 2"; Decimal)
+        field(70070; "ST Prorogation 2"; Decimal)
         {
 
             Caption = 'Prorogation 2';
@@ -861,7 +861,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                                                                   "STSlip Origin line No." = field("Line No."),
                                                                      "Copied To No." = const('')));
         }
-        field(71071; "ST Prorogation 3"; Decimal)
+        field(70071; "ST Prorogation 3"; Decimal)
         {
 
             Caption = 'Prorogation 3';
@@ -883,7 +883,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 
 
 
-        field(71072; "ST LC validity date"; Date)
+        field(70072; "ST LC validity date"; Date)
         {
             Caption = 'Validity Date';
             Editable = False;
@@ -891,7 +891,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             CalcFormula = lookup("Payment Header"."ST LC validity date" where("No." = field("No.")));
 
         }
-        field(71073; "ST LC shipping date"; Date)
+        field(70073; "ST LC shipping date"; Date)
         {
             CaptionML = ENU = 'LC Shipping Date', FRA = 'Date Ultime Expédition';
             Editable = False;
@@ -901,7 +901,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
         }
 
 
-        field(71074; "ST Cours"; Decimal)
+        field(70074; "ST Cours"; Decimal)
         {
             Caption = 'Rate';
             DecimalPlaces = 1 : 6;
@@ -913,19 +913,19 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
             end;
         }
 
-        field(71075; "ST Date AT"; Date)
+        field(70075; "ST Date AT"; Date)
         {
             Caption = 'AT Date';
             Editable = True;
         }
 
-        field(71076; "ST Prorog"; CODE[20])
+        field(70076; "ST Prorog"; CODE[20])
         {
             Caption = 'Prorogation';
             Editable = false;
             FieldClass = FlowFilter;
         }
-        field(71077; "ST date Prorogation"; date)
+        field(70077; "ST date Prorogation"; date)
         {
 
             Caption = 'Prorogation Date';
@@ -937,7 +937,7 @@ tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
                                                                     "STSlip Origin line No." = field("Line No."),
                                                                      "Copied To No." = const('')));
         }
-        field(71078; "ST FED currency"; Decimal)
+        field(70078; "ST FED currency"; Decimal)
         {
 
             Caption = 'Cours de devise FED';

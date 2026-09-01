@@ -1,8 +1,8 @@
-tableextension 71029 "ST Purchase Line EXT" extends "Purchase Line"//39
+tableextension 70029 "ST Purchase Line EXT" extends "Purchase Line"//39
 {
     fields
     {
-        field(71000; Fodec; Boolean)
+        field(70000; Fodec; Boolean)
         {
             Caption = 'Fodec';
             DataClassification = ToBeClassified;
@@ -21,21 +21,21 @@ tableextension 71029 "ST Purchase Line EXT" extends "Purchase Line"//39
                 end;
             end;
         }
-        field(71001; "Taux Fodec"; Decimal)
+        field(70001; "Taux Fodec"; Decimal)
         {
             Caption = 'Taux FODEC';
             DataClassification = ToBeClassified;
         }
-        field(71002; "Montant Fodec"; Decimal)
+        field(70002; "Montant Fodec"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
-        // field(71003; "Fodec Amount"; Decimal)
+        // field(70003; "Fodec Amount"; Decimal)
         // {
         //     CaptionML = ENU = 'Fodec Amount',
         //                 FRA = 'Montant Fodec';
         // }
-        // field(71004; "Fodec Amount Including VAT"; Decimal)
+        // field(70004; "Fodec Amount Including VAT"; Decimal)
         // {
         //     CaptionML = ENU = 'Fodec Amount Including VAT',
         //                 FRA = 'Montant TTC Fodec';

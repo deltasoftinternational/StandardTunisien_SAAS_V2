@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="MainTextTitle">
+          <DataField>MainTextTitle</DataField>
+        </Field>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+        </Field>
+        <Field Name="TodayFormatted">
+          <DataField>TodayFormatted</DataField>
+        </Field>
+        <Field Name="DeprBookText">
+          <DataField>DeprBookText</DataField>
+        </Field>
+        <Field Name="FixedAssetCaptionFAFilter">
+          <DataField>FixedAssetCaptionFAFilter</DataField>
+        </Field>
+        <Field Name="FAFilter">
+          <DataField>FAFilter</DataField>
+        </Field>
+        <Field Name="TextTitle1">
+          <DataField>TextTitle1</DataField>
+        </Field>
+        <Field Name="GroupCodeName">
+          <DataField>GroupCodeName</DataField>
+        </Field>
+        <Field Name="FANo">
+          <DataField>FANo</DataField>
+        </Field>
+        <Field Name="FADesc">
+          <DataField>FADesc</DataField>
+        </Field>
+        <Field Name="AcquisitionCostCaption">
+          <DataField>AcquisitionCostCaption</DataField>
+        </Field>
+        <Field Name="RentingValueCaption">
+          <DataField>RentingValueCaption</DataField>
+        </Field>
+        <Field Name="PerctgProfessionalTaxCaption">
+          <DataField>PerctgProfessionalTaxCaption</DataField>
+        </Field>
+        <Field Name="GroupTitle">
+          <DataField>GroupTitle</DataField>
+        </Field>
+        <Field Name="No_FixedAsset">
+          <DataField>No_FixedAsset</DataField>
+        </Field>
+        <Field Name="Desc_FixedAsset">
+          <DataField>Desc_FixedAsset</DataField>
+        </Field>
+        <Field Name="Amts1">
+          <DataField>Amts1</DataField>
+        </Field>
+        <Field Name="Amts1Format">
+          <DataField>Amts1Format</DataField>
+        </Field>
+        <Field Name="Amts2">
+          <DataField>Amts2</DataField>
+        </Field>
+        <Field Name="Amts2Format">
+          <DataField>Amts2Format</DataField>
+        </Field>
+        <Field Name="FormatDate1">
+          <DataField>FormatDate1</DataField>
+        </Field>
+        <Field Name="SetSalesMark">
+          <DataField>SetSalesMark</DataField>
+        </Field>
+        <Field Name="PercentageTaxProfessionalTax">
+          <DataField>PercentageTaxProfessionalTax</DataField>
+        </Field>
+        <Field Name="PercentageTaxProfessionalTaxFormat">
+          <DataField>PercentageTaxProfessionalTaxFormat</DataField>
+        </Field>
+        <Field Name="GroupTotalsNo">
+          <DataField>GroupTotalsNo</DataField>
+        </Field>
+        <Field Name="PrintDetails">
+          <DataField>PrintDetails</DataField>
+        </Field>
+        <Field Name="GroupAmts1">
+          <DataField>GroupAmts1</DataField>
+        </Field>
+        <Field Name="GroupAmts1Format">
+          <DataField>GroupAmts1Format</DataField>
+        </Field>
+        <Field Name="GroupAmts2">
+          <DataField>GroupAmts2</DataField>
+        </Field>
+        <Field Name="GroupAmts2Format">
+          <DataField>GroupAmts2Format</DataField>
+        </Field>
+        <Field Name="SubTotalGroupTitle">
+          <DataField>SubTotalGroupTitle</DataField>
+        </Field>
+        <Field Name="TotalAmts1">
+          <DataField>TotalAmts1</DataField>
+        </Field>
+        <Field Name="TotalAmts1Format">
+          <DataField>TotalAmts1Format</DataField>
+        </Field>
+        <Field Name="TotalAmts2">
+          <DataField>TotalAmts2</DataField>
+        </Field>
+        <Field Name="TotalAmts2Format">
+          <DataField>TotalAmts2Format</DataField>
+        </Field>
+        <Field Name="FASubclassCode_FixedAsset">
+          <DataField>FASubclassCode_FixedAsset</DataField>
+        </Field>
+        <Field Name="FAClassCode_FixedAsset">
+          <DataField>FAClassCode_FixedAsset</DataField>
+        </Field>
+        <Field Name="GlobalDim1Code_FixedAsset">
+          <DataField>GlobalDim1Code_FixedAsset</DataField>
+        </Field>
+        <Field Name="GlobalDim2Code_FixedAsset">
+          <DataField>GlobalDim2Code_FixedAsset</DataField>
+        </Field>
+        <Field Name="CompOfMainAsset_FixedAsset">
+          <DataField>CompOfMainAsset_FixedAsset</DataField>
+        </Field>
+        <Field Name="FALocCode_FixedAsset">
+          <DataField>FALocCode_FixedAsset</DataField>
+        </Field>
+        <Field Name="PageNoCaption">
+          <DataField>PageNoCaption</DataField>
+        </Field>
+        <Field Name="TotalCaption">
+          <DataField>TotalCaption</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

@@ -1,8 +1,8 @@
-tableextension 71021 "ST ItemChargeTabExt" extends "Item Charge" //5800
+tableextension 70021 "ST ItemChargeTabExt" extends "Item Charge" //5800
 {
     fields
     {
-        field(71000; "ST Not Assignable"; Boolean)
+        field(70000; "ST Not Assignable"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Non Affectable';

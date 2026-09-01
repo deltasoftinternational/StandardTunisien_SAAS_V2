@@ -1,8 +1,8 @@
-tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
+tableextension 70040 "ST FinanceCue EXT" extends "Finance Cue" //9054
 {
     fields
     {
-        field(71000; "TotalChequeEnCoffre"; Decimal)
+        field(70000; "TotalChequeEnCoffre"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT_CHQCOF'),
@@ -11,7 +11,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Chèques En Coffre';
             FieldClass = FlowField;
         }
-        field(71001; "TotalChequeImpayé"; Decimal)
+        field(70001; "TotalChequeImpayé"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT_CHQIMP'),
@@ -20,7 +20,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Chèques Impayés';
             FieldClass = FlowField;
         }
-        field(71003; "TotalChequecontentieux"; Decimal)
+        field(70003; "TotalChequecontentieux"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''), STCodeSituationPaiement = filter('CLT_CHQCONT'),
                                                             STCoffre = field("Coffre utilisateur")
@@ -28,7 +28,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Chèques contentieux';
             FieldClass = FlowField;
         }
-        field(71004; "TotalChequeEncoursVersement"; Decimal)
+        field(70004; "TotalChequeEncoursVersement"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT_CHQENCV'),
@@ -37,7 +37,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Chèques Encours De Versement';
             FieldClass = FlowField;
         }
-        field(71005; "TotalTraiteEnCoffre"; Decimal)
+        field(70005; "TotalTraiteEnCoffre"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT_TRTCOF'),
@@ -46,7 +46,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Traites En Coffre';
             FieldClass = FlowField;
         }
-        field(71006; "Traite encours d'encaissement"; Decimal)
+        field(70006; "Traite encours d'encaissement"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT_TRTENCENC'),
@@ -55,7 +55,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Traites Encours D''encaissement';
             FieldClass = FlowField;
         }
-        field(71007; "Traite encours escompte"; Decimal)
+        field(70007; "Traite encours escompte"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT_TRTENCESC'),
@@ -64,7 +64,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Traites encours d''escompte';
             FieldClass = FlowField;
         }
-        field(71008; "Traite Impayee"; Decimal)
+        field(70008; "Traite Impayee"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT_TRTIMP'),
@@ -73,7 +73,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Traites Impayées';
             FieldClass = FlowField;
         }
-        field(71009; "Cheque Preavise"; Decimal)
+        field(70009; "Cheque Preavise"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT-CHQ-PREAV'),
@@ -82,7 +82,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Chèques Préavisés';
             FieldClass = FlowField;
         }
-        field(71010; "Cheque encours fournisseur"; Decimal)
+        field(70010; "Cheque encours fournisseur"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('FRS_CHQENC'),
@@ -91,7 +91,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = ' Chèques encours fournisseur';
             FieldClass = FlowField;
         }
-        field(71011; "Traite encours fournisseur"; Decimal)
+        field(70011; "Traite encours fournisseur"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('FRS_TRTENC'),
@@ -100,7 +100,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Traites Encours Fournisseur';
             FieldClass = FlowField;
         }
-        field(71012; "Traite remis au fournisseur"; Decimal)
+        field(70012; "Traite remis au fournisseur"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('FRS_TRTREM'),
@@ -109,7 +109,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Traites Remis Au Fournisseur';
             FieldClass = FlowField;
         }
-        field(71016; "Cheque verse en banque"; Decimal)
+        field(70016; "Cheque verse en banque"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT-CHQREM'),
@@ -118,7 +118,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Chèques versés en banque';
             FieldClass = FlowField;
         }
-        field(71017; "Cheque Encaisse en banque"; Decimal)
+        field(70017; "Cheque Encaisse en banque"; Decimal)
         {
             CalcFormula = - Sum("Payment Line".Amount where("Copied To No." = filter(''),
                                                             STCodeSituationPaiement = filter('CLT-CHQ-ENCB'),
@@ -127,7 +127,7 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             Caption = 'Chèques Encaissés en banque';
             FieldClass = FlowField;
         }
-        field(71013; "Sales Documents Due Today"; Integer)
+        field(70013; "Sales Documents Due Today"; Integer)
         {
             CalcFormula = Count("Cust. Ledger Entry" WHERE("Document Type" = FILTER(Invoice | "Credit Memo"),
                                                              "Due Date" = FIELD("Due Date Filter"),
@@ -136,16 +136,16 @@ tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
             FieldClass = FlowField;
         }
 
-        field(71014; "Total Montant caisse Depense"; Decimal)
+        field(70014; "Total Montant caisse Depense"; Decimal)
         {
 
         }
-        field(71015; "Total Montant caisse recette"; Decimal)
+        field(70015; "Total Montant caisse recette"; Decimal)
         {
 
         }
 
-        field(71020; "Coffre utilisateur"; code[20])
+        field(70020; "Coffre utilisateur"; code[20])
         {
             FieldClass = FlowFilter;
         }

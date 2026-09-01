@@ -1,41 +1,41 @@
-tableextension 71034 "ST  PurchRcptLine EXT" extends "Purch. Rcpt. Line" //121
+tableextension 70034 "ST  PurchRcptLine EXT" extends "Purch. Rcpt. Line" //121
 {
     fields
     {
-        field(71000; Fodec; Boolean)
+        field(70000; Fodec; Boolean)
         {
             Caption = 'FODEC';
             DataClassification = ToBeClassified;
         }
-        field(71002; "Montant Fodec"; Decimal)
+        field(70002; "Montant Fodec"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
-        field(71001; "STStamp Fiscal Amount"; Decimal)
+        field(70001; "STStamp Fiscal Amount"; Decimal)
         {
             CaptionML = FRA = 'Montant timbre';
             DataClassification = ToBeClassified;
         }
-        field(71006; "STApply Stamp Fiscal"; Boolean)
+        field(70006; "STApply Stamp Fiscal"; Boolean)
         {
             CaptionML = FRA = 'Appliquer timbre fiscal';
             DataClassification = ToBeClassified;
 
         }
-        field(71003; "ST INR Quantity"; Decimal)
+        field(70003; "ST INR Quantity"; Decimal)
         {
 
             DataClassification = ToBeClassified;
             Caption = 'Quantité FNP';
         }
-        field(71004; "ST INR Amount"; Decimal)
+        field(70004; "ST INR Amount"; Decimal)
         {
 
             DataClassification = ToBeClassified;
             Caption = 'Montant FNP';
 
         }
-        field(71005; "ST Last Invoice Date"; Date)
+        field(70005; "ST Last Invoice Date"; Date)
         {
 
             DataClassification = ToBeClassified;

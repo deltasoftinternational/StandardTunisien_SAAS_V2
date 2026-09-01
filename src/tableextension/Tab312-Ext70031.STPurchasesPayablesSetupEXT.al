@@ -1,4 +1,4 @@
-tableextension 71031 "ST PurchasesPayablesSetup EXT" extends "Purchases & Payables Setup" //312
+tableextension 70031 "ST PurchasesPayablesSetup EXT" extends "Purchases & Payables Setup" //312
 {
     fields
     {

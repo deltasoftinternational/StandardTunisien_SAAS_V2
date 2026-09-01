@@ -1,8 +1,8 @@
-tableextension 71017 "STNo. Series LineTabExt" extends "No. Series Line" //309
+tableextension 70017 "STNo. Series LineTabExt" extends "No. Series Line" //309
 {
     fields
     {
-        field(71000; "STCoffre"; Code[20])
+        field(70000; "STCoffre"; Code[20])
         {
             Caption = 'Coffre';
             DataClassification = ToBeClassified;

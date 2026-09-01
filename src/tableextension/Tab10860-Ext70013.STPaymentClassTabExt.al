@@ -1,77 +1,77 @@
-tableextension 71013 "ST PaymentClassTabExt" extends "Payment Class" //10860
+tableextension 70013 "ST PaymentClassTabExt" extends "Payment Class" //10860
 {
 
 
     fields
     {
-        field(71000; STCaisse; Boolean)
+        field(70000; STCaisse; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Caisse';
         }
-        field(71001; "STHeader Account Type"; Option)
+        field(70001; "STHeader Account Type"; Option)
         {
             Caption = 'Type compte entête';
             DataClassification = ToBeClassified;
             OptionCaption = 'G/L Account,Customer,Vendor,Bank Account,Fixed Asset';
             OptionMembers = "G/L Account",Customer,Vendor,"Bank Account","Fixed Asset";
         }
-        field(71002; STObservation; Text[100])
+        field(70002; STObservation; Text[100])
         {
             DataClassification = ToBeClassified;
             Caption = 'Observation';
         }
-        field(71003; "STMode Règlement"; Code[10])
+        field(70003; "STMode Règlement"; Code[10])
         {
             DataClassification = ToBeClassified;
             Caption = 'Mode règlement';
             TableRelation = "Payment Method".Code;
         }
-        field(71004; STType_Reg; Option)
+        field(70004; STType_Reg; Option)
         {
             DataClassification = ToBeClassified;
             Caption = 'Type règlement';
             OptionMembers = " ","Chèque",Traite,Virement,"Espèce",LettreC,Autre,TPE,RS;
         }
-        field(71005; "STControle Agent Remis"; Boolean)
+        field(70005; "STControle Agent Remis"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Controle agenet remis';
         }
-        field(71006; "STDoc. Extene  Obligatoir"; Boolean)
+        field(70006; "STDoc. Extene  Obligatoir"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Doc. externe obligatoire';
         }
 
-        field(71007; "STPetite dépense"; Boolean)
+        field(70007; "STPetite dépense"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Petite dépense';
         }
 
-        field(71008; "STCaisse par défaut"; Option)
+        field(70008; "STCaisse par défaut"; Option)
         {
             DataClassification = ToBeClassified;
             Caption = 'Caisse par défaut';
             OptionCaption = ' ,Dépense,Recette';
             OptionMembers = " ","Dépense",Recette;
         }
-        field(71009; "STCompte ligne"; Option)
+        field(70009; "STCompte ligne"; Option)
         {
             DataClassification = ToBeClassified;
             Caption = 'Compte ligne';
             OptionCaption = ' ,Caisse dépense, Caisse recette, fournisseur local, fournisseur étranger, salarié';
             OptionMembers = " ","Caisse dépense"," Caisse recette"," fournisseur local"," fournisseur étranger"," salarié";
         }
-        // field(71010; Visible; Boolean)
+        // field(70010; Visible; Boolean)
         // {
         //     CalcFormula = Exist("Rank range" WHERE("Rank range value" = FIELD("Profile Bordereau filter")));
 
         //     Description = 'DELTA STD 01';
         //     FieldClass = FlowField;
         // }
-        field(71011; "STProfile Bordereau filter"; Option)
+        field(70011; "STProfile Bordereau filter"; Option)
         {
             Caption = 'Filtre profile bordereau';
             FieldClass = FlowFilter;
@@ -79,26 +79,26 @@ tableextension 71013 "ST PaymentClassTabExt" extends "Payment Class" //10860
             OptionMembers = " ",Caissier,Financier,Comptable,"Admin Borderau";
 
         }
-        field(71012; "STType Piece Paiement"; Option)
+        field(70012; "STType Piece Paiement"; Option)
         {
             Caption = 'Type pièce paiement';
             DataClassification = ToBeClassified;
             OptionMembers = " ","Chéque",Traite,Virement,"Espéce";
         }
-        field(71013; "STType Bordereau"; Enum "ST Type Borderau ENUM")
+        field(70013; "STType Bordereau"; Enum "ST Type Borderau ENUM")
         {
             Caption = 'Type bordereau';
             DataClassification = ToBeClassified;
 
         }
-        field(71010; STType_ED; Option)
+        field(70010; STType_ED; Option)
         {
             DataClassification = ToBeClassified;
             Description = 'DELTA STD 01';
             OptionCaption = 'Encaissement,Décaissement';
             OptionMembers = Encaissement,"Décaissement";
         }
-        field(71014; STSuggestions; Enum "ST Suggestions ENUM")
+        field(70014; STSuggestions; Enum "ST Suggestions ENUM")
         {
             Caption = 'Propositions';
             trigger OnValidate()
@@ -109,26 +109,26 @@ tableextension 71013 "ST PaymentClassTabExt" extends "Payment Class" //10860
             end;
 
         }
-        field(71015; StepPayment; Code[20])
+        field(70015; StepPayment; Code[20])
         {
             Caption = 'Affectation';
             DataClassification = ToBeClassified;
 
         }
-        field(71016; "ST Visible"; Boolean)
+        field(70016; "ST Visible"; Boolean)
         {
             CalcFormula = Exist("ST Autorisation Etapes" WHERE("STPayment Class" = FIELD(Code),
                                                                     "STUser Code" = FIELD("ST User Filter")));
             Editable = false;
             FieldClass = FlowField;
         }
-        field(71017; "ST User Filter"; Code[50])
+        field(70017; "ST User Filter"; Code[50])
         {
             FieldClass = FlowFilter;
         }
 
         ////
-        field(71018; "Payment Method Code"; Code[10])
+        field(70018; "Payment Method Code"; Code[10])
         {
             Caption = 'Payment Method Code';
             TableRelation = "Payment Method";
