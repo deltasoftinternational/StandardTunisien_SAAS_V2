@@ -222,7 +222,7 @@ page 71002 "STPayment Lines List"
 
                     trigger OnAction()
                     var
-                        Statement: Record "Payment Header";
+                        Statement: record "Payment Header FR";
                         StatementForm: Page "Payment Slip";
                     begin
                         if Statement.Get(Rec."No.") then begin
@@ -249,7 +249,7 @@ page 71002 "STPayment Lines List"
 
                     trigger OnAction()
                     var
-                        PaymentLine: Record "Payment Line";
+                        PaymentLine: record "Payment Line FR";
                         Consult: Page "Payment Line Modification";
                     begin
                         PaymentLine.Copy(Rec);
@@ -286,7 +286,7 @@ page 71002 "STPayment Lines List"
     var
         Steps: Integer;
         PayNum: Code[20];
-        GPaymentLine: Record "Payment Line";
+        GPaymentLine: record "Payment Line FR";
         SumSelect: Decimal;
 
 
