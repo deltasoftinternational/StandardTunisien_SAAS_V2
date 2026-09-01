@@ -1,4 +1,4 @@
-tableextension 70008 "ST SalesInvHeaderTabExt" extends "Sales Invoice Header" //112
+tableextension 71008 "ST SalesInvHeaderTabExt" extends "Sales Invoice Header" //112
 {
     fields
     {

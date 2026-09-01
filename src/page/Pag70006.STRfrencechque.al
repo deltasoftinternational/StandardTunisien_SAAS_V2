@@ -1,4 +1,4 @@
-page 70006 "ST Référence chèque" //50698
+page 71006 "ST Référence chèque" //50698
 {
     Caption = 'Liste référence chèque';
     PageType = List;

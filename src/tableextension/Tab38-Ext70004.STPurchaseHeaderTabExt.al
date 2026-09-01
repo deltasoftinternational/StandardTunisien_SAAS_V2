@@ -1,4 +1,4 @@
-tableextension 70004 "ST PurchaseHeaderTabExt" extends "Purchase Header" //38
+tableextension 71004 "ST PurchaseHeaderTabExt" extends "Purchase Header" //38
 {
     fields
     {

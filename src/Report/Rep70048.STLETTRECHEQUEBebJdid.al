@@ -1,5 +1,5 @@
 
-report 70048 "ST LETTRECHEQUEBebJdid"
+report 71048 "ST LETTRECHEQUEBebJdid"
 {
     //LETTRE CHQ ETS ZOUARI BEB JDID
     DefaultLayout = RDLC;

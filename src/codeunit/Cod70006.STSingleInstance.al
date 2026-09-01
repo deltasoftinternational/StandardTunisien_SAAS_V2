@@ -1,4 +1,4 @@
-codeunit 70006 "STSingleInstance"
+codeunit 71006 "STSingleInstance"
 {
     SingleInstance = true;
 

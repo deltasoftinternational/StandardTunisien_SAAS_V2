@@ -1,4 +1,4 @@
-pageextension 70061 "PurchInvoiceSubformEXT" extends "Purch. Invoice Subform"//55
+pageextension 71061 "PurchInvoiceSubformEXT" extends "Purch. Invoice Subform"//55
 {
     layout
     {

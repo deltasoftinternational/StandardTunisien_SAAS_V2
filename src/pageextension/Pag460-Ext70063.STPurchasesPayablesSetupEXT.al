@@ -1,5 +1,5 @@
 
-pageextension 70063 "ST PurchasesPayablesSetup EXT" extends "Purchases & Payables Setup" //460
+pageextension 71063 "ST PurchasesPayablesSetup EXT" extends "Purchases & Payables Setup" //460
 {
     layout
     {

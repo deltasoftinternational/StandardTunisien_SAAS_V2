@@ -1,4 +1,4 @@
-table 70000 "ST Groupe retenue"
+table 71000 "ST Groupe retenue"
 {
     DrillDownPageID = "ST Groupe Retenue";
     LookupPageID = "ST Groupe Retenue";

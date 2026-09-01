@@ -1,4 +1,4 @@
-report 70016 "ST Cust Detail Trial Balance" //10806
+report 71016 "ST Cust Detail Trial Balance" //10806
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/CustomerDetailTrialBalance.rdlc';

@@ -1,4 +1,4 @@
-pageextension 70064 "PostedPurchCrMemoSubform EXT" extends "Posted Purch. Cr. Memo Subform"//141
+pageextension 71064 "PostedPurchCrMemoSubform EXT" extends "Posted Purch. Cr. Memo Subform"//141
 {
     layout
     {

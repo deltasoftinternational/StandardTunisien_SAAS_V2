@@ -1,4 +1,4 @@
-page 70007 "ST chèque"
+page 71007 "ST chèque"
 {
     Caption = 'Chèque';
     InsertAllowed = false;

@@ -1,4 +1,4 @@
-pageextension 70005 "ST PurchaseInvoicePagExt" extends "Purchase Invoice" //51
+pageextension 71005 "ST PurchaseInvoicePagExt" extends "Purchase Invoice" //51
 {
     layout
     {

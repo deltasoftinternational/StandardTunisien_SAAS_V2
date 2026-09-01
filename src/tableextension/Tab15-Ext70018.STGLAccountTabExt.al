@@ -1,4 +1,4 @@
-tableextension 70018 STGLAccountTabExt extends "G/L Account"
+tableextension 71018 STGLAccountTabExt extends "G/L Account"
 {
     fields
     {

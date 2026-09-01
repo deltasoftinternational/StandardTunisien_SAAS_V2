@@ -1,4 +1,4 @@
-pageextension 70050 "STCustomer List PagExt" extends "Customer List" //22
+pageextension 71050 "STCustomer List PagExt" extends "Customer List" //22
 {
     layout
     {

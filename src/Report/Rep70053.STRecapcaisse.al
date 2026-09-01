@@ -1,4 +1,4 @@
-report 70053 "ST Recap caisse"
+report 71053 "ST Recap caisse"
 {
 
     // DELTA 01 AZ (04-12-18) : Fix Wrong Invoice No.

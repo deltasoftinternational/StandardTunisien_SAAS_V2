@@ -1,4 +1,4 @@
-report 70036 "STRelevee de compte"
+report 71036 "STRelevee de compte"
 {
 
 

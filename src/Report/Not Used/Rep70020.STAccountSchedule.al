@@ -1,4 +1,4 @@
-report 70020 "ST Account Schedule" //10811
+report 71020 "ST Account Schedule" //10811
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/FRAccountSchedule.rdlc';

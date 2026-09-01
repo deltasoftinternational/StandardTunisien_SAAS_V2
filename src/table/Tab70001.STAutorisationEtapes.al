@@ -1,4 +1,4 @@
-table 70001 "ST Autorisation Etapes"
+table 71001 "ST Autorisation Etapes"
 {
 
     fields

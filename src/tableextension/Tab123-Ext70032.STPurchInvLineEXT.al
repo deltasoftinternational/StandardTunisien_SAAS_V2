@@ -1,4 +1,4 @@
-tableextension 70032 "ST PurchInvLine EXT" extends "Purch. Inv. Line" //123
+tableextension 71032 "ST PurchInvLine EXT" extends "Purch. Inv. Line" //123
 {
     fields
     {

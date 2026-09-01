@@ -1,4 +1,4 @@
-report 70032 "STBordereau de Recep CHQ - NEW"
+report 71032 "STBordereau de Recep CHQ - NEW"
 {
 
     UsageCategory = ReportsAndAnalysis;

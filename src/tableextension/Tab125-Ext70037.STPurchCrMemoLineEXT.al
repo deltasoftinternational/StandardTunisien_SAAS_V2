@@ -1,4 +1,4 @@
-tableextension 70037 "ST PurchCrMemoLine EXT" extends "Purch. Cr. Memo Line" //125
+tableextension 71037 "ST PurchCrMemoLine EXT" extends "Purch. Cr. Memo Line" //125
 {
     fields
     {

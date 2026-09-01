@@ -1,4 +1,4 @@
-pageextension 70071 "STPosted Return Receipt" extends "Posted Return Receipt"//6660
+pageextension 71071 "STPosted Return Receipt" extends "Posted Return Receipt"//6660
 {
     trigger OnDeleteRecord(): Boolean
     begin

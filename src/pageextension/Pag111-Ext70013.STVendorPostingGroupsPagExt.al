@@ -1,4 +1,4 @@
-pageextension 70013 "ST VendorPostingGroupsPagExt" extends "Vendor Posting Groups" //111
+pageextension 71013 "ST VendorPostingGroupsPagExt" extends "Vendor Posting Groups" //111
 {
     layout
     {

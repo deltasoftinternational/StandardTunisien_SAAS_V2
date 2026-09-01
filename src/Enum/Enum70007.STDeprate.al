@@ -1,4 +1,4 @@
-enum 70007 "STDepRate"
+Enum 71007 "STDepRate"
 {
     Extensible = true;
 

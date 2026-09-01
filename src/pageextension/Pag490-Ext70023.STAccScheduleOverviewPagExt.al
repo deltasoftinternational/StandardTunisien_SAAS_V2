@@ -1,4 +1,4 @@
-pageextension 70023 "ST Acc.ScheduleOverviewPagExt" extends "Acc. Schedule Overview" //490
+pageextension 71023 "ST Acc.ScheduleOverviewPagExt" extends "Acc. Schedule Overview" //490
 {
     layout
     {

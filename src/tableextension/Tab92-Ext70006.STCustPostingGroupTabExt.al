@@ -1,4 +1,4 @@
-tableextension 70006 "ST CustPostingGroupTabExt" extends "Customer Posting Group" //92
+tableextension 71006 "ST CustPostingGroupTabExt" extends "Customer Posting Group" //92
 {
     fields
     {

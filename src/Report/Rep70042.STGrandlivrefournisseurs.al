@@ -1,4 +1,4 @@
-report 70042 "STGrand livre fournisseurs"
+report 71042 "STGrand livre fournisseurs"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;

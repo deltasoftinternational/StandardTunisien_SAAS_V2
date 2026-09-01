@@ -1,5 +1,5 @@
 // DELTA 
-pageextension 70065 "STGeneralLedgerEntries" extends "General Ledger Entries"//20
+pageextension 71065 "STGeneralLedgerEntries" extends "General Ledger Entries"//20
 {
     layout
     {

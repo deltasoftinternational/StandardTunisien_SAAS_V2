@@ -1,4 +1,4 @@
-pageextension 70017 "STPaymentStepsPagExt" Extends "Payment Steps" //10866
+pageextension 71017 "STPaymentStepsPagExt" Extends "Payment Steps" //10866
 {
     // /** DELTA 01 SD 02/07/2018 : création page
     // /** DELTA 02 IS 15/11/2018 : Ajout des controles

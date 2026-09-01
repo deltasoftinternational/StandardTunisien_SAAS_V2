@@ -1,4 +1,4 @@
-page 70019 "G/L Comment"
+page 71019 "G/L Comment"
 {
     Permissions = tabledata "G/L Entry" = RM,
                   tabledata "Cust. Ledger Entry" = RM,

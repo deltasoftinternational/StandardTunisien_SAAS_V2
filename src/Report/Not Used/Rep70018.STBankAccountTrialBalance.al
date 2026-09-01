@@ -1,4 +1,4 @@
-report 70018 "ST Bank Account Trial Balance" //10809
+report 71018 "ST Bank Account Trial Balance" //10809
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/BankAccountTrialBalance.rdl';

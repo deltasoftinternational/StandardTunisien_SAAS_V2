@@ -1,4 +1,4 @@
-pageextension 70056 STPostedPurchaseReceipLines extends "Posted Purchase Receipt Lines" //528
+pageextension 71056 STPostedPurchaseReceipLines extends "Posted Purchase Receipt Lines" //528
 {
     layout
     {

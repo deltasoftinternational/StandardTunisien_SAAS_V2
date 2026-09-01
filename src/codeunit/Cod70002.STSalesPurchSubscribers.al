@@ -1,4 +1,4 @@
-codeunit 70002 "ST Sales&PurchSubscribers"
+codeunit 71002 "ST Sales&PurchSubscribers"
 {
     Permissions = tabledata "Purch. Rcpt. Line" = rmd,
                   tabledata "G/L Entry" = rmd,

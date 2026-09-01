@@ -1,4 +1,4 @@
-table 70002 "ST Mandatory Dimension"
+table 71002 "ST Mandatory Dimension"
 {
     DataPerCompany = false;
     Caption = 'Axe analytique obligatoire';

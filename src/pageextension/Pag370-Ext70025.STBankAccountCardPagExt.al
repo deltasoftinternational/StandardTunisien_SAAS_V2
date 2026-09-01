@@ -1,4 +1,4 @@
-pageextension 70025 "ST BankAccountCardPagExt" extends "Bank Account Card" //370
+pageextension 71025 "ST BankAccountCardPagExt" extends "Bank Account Card" //370
 {
     layout
     {

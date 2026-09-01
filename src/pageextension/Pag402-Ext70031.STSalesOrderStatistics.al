@@ -1,4 +1,4 @@
-pageextension 70031 "STSales Order Statistics" extends "Sales Order Statistics" //402
+pageextension 71031 "STSales Order Statistics" extends "Sales Order Statistics" //402
 {
     layout
     {

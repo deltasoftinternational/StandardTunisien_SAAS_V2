@@ -1,4 +1,4 @@
-report 70065 "STJournalCaisse"
+report 71065 "STJournalCaisse"
 {
     Caption = 'Etat Journal Caisse';
     DefaultLayout = RDLC;

@@ -1,4 +1,4 @@
-page 70000 "ST MontantDef"
+page 71000 "ST MontantDef"
 {
     ApplicationArea = All;
 

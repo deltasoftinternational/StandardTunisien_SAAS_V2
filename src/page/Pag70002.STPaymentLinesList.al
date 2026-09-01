@@ -1,4 +1,4 @@
-page 70002 "STPayment Lines List"
+page 71002 "STPayment Lines List"
 {
     Caption = 'Liste des lignes bordereaux';
     DeleteAllowed = false;

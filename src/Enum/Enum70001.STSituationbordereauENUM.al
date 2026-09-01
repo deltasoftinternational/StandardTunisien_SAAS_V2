@@ -1,4 +1,4 @@
-Enum 70001 "ST Situation bordereau ENUM"
+Enum 71001 "ST Situation bordereau ENUM"
 {
     Extensible = true;
 

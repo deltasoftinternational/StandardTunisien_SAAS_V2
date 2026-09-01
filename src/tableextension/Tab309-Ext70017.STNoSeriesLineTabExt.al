@@ -1,4 +1,4 @@
-tableextension 70017 "STNo. Series LineTabExt" extends "No. Series Line" //309
+tableextension 71017 "STNo. Series LineTabExt" extends "No. Series Line" //309
 {
     fields
     {

@@ -1,4 +1,4 @@
-report 70023 "Balance des clients"
+report 71023 "Balance des clients"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/CustomerTrialBalance2.rdl';

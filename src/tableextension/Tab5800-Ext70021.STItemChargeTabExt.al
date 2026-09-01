@@ -1,4 +1,4 @@
-tableextension 70021 "ST ItemChargeTabExt" extends "Item Charge" //5800
+tableextension 71021 "ST ItemChargeTabExt" extends "Item Charge" //5800
 {
     fields
     {

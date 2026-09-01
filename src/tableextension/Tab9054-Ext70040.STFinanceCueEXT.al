@@ -1,4 +1,4 @@
-tableextension 70040 "ST FinanceCue EXT" extends "Finance Cue" //9054
+tableextension 71040 "ST FinanceCue EXT" extends "Finance Cue" //9054
 {
     fields
     {

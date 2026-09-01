@@ -1,4 +1,4 @@
-tableextension 70013 "ST PaymentClassTabExt" extends "Payment Class" //10860
+tableextension 71013 "ST PaymentClassTabExt" extends "Payment Class" //10860
 {
 
 

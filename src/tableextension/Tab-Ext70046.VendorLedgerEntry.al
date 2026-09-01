@@ -1,4 +1,4 @@
-tableextension 70046 "Vendor Ledger Entry" extends "Vendor Ledger Entry"//25
+tableextension 71046 "Vendor Ledger Entry" extends "Vendor Ledger Entry"//25
 {
     fields
     {

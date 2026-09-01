@@ -1,4 +1,4 @@
-report 70019 "ST Bank Acc. Det Trial Balance" //10810
+report 71019 "ST Bank Acc. Det Trial Balance" //10810
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/BankAccDetailTrialBalance.rdlc';

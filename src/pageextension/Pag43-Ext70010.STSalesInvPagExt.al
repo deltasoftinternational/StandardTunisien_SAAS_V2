@@ -1,4 +1,4 @@
-pageextension 70010 "ST SalesInvPagExt" extends "Sales Invoice" //43
+pageextension 71010 "ST SalesInvPagExt" extends "Sales Invoice" //43
 {
     layout
     {

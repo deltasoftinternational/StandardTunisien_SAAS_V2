@@ -1,4 +1,4 @@
-tableextension 70002 "ST PaymentPostBufferExt" extends "Payment Post. Buffer" //10864
+tableextension 71002 "ST PaymentPostBufferExt" extends "Payment Post. Buffer" //10864
 {
     fields
     {

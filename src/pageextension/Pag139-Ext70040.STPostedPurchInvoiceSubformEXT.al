@@ -1,4 +1,4 @@
-pageextension 70040 "STPostedPurchInvoiceSubformEXT" extends "Posted Purch. Invoice Subform" //139
+pageextension 71040 "STPostedPurchInvoiceSubformEXT" extends "Posted Purch. Invoice Subform" //139
 {
     layout
     {

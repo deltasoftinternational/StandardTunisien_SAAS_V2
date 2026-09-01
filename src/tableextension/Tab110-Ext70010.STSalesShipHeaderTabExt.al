@@ -1,4 +1,4 @@
-tableextension 70010 "ST SalesShipHeaderTabExt" extends "Sales Shipment Header" //110
+tableextension 71010 "ST SalesShipHeaderTabExt" extends "Sales Shipment Header" //110
 {
     fields
     {

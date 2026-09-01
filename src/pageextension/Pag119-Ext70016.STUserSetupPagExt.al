@@ -1,4 +1,4 @@
-pageextension 70016 "ST UserSetupPagExt" extends "User Setup" //119
+pageextension 71016 "ST UserSetupPagExt" extends "User Setup" //119
 {
 
     layout

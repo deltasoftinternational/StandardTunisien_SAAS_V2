@@ -1,4 +1,4 @@
-page 70011 "STSituationPayment"
+page 71011 "STSituationPayment"
 {
 
     ApplicationArea = All;

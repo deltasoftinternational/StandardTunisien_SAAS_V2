@@ -1,4 +1,4 @@
-tableextension 70039 "STVendor Bank Account" extends "Vendor Bank Account" //288
+tableextension 71039 "STVendor Bank Account" extends "Vendor Bank Account" //288
 {
     fields
     {

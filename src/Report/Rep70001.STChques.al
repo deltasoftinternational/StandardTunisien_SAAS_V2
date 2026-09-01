@@ -1,4 +1,4 @@
-report 70001 "STChèques"
+report 71001 "STChèques"
 {
     DefaultLayout = RDLC;
     UsageCategory = ReportsAndAnalysis;

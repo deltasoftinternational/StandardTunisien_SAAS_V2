@@ -1,4 +1,4 @@
-page 70015 "STRisqueClientList"
+page 71015 "STRisqueClientList"
 {
 
     Caption = 'Risques clients';

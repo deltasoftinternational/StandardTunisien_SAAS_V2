@@ -1,4 +1,4 @@
-tableextension 70025 "STG/L Entry TabExt" extends "G/L Entry" //17
+tableextension 71025 "STG/L Entry TabExt" extends "G/L Entry" //17
 {
     fields
     {

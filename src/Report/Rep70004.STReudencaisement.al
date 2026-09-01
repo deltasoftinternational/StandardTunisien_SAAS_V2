@@ -1,4 +1,4 @@
-report 70004 "STReçu dencaisement"
+report 71004 "STReçu dencaisement"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/Reçudencaisement.rdl';

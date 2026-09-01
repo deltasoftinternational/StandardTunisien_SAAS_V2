@@ -1,4 +1,4 @@
-codeunit 70001 "ST Payment Management"
+codeunit 71001 "ST Payment Management"
 {
 
     Permissions = TableData "Cust. Ledger Entry" = rm,

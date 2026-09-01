@@ -1,4 +1,4 @@
-report 70038 "Inventory Valuation Exp Cost"
+report 71038 "Inventory Valuation Exp Cost"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/Report/RDLC/Inventory Valuation Exp Cost.rdl';

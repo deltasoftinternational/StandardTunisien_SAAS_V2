@@ -1,4 +1,4 @@
-report 70062 "STFixed Asset - Book Value 01"
+report 71062 "STFixed Asset - Book Value 01"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/STFixedAssetBookValue01.rdl';

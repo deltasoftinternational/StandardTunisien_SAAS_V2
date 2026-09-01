@@ -1,4 +1,4 @@
-tableextension 70033 "ST PurchRcptHeader EXT" extends "Purch. Rcpt. Header" //120
+tableextension 71033 "ST PurchRcptHeader EXT" extends "Purch. Rcpt. Header" //120
 {
     fields
     {

@@ -1,4 +1,4 @@
-tableextension 70005 "ST SalesHeaderTabExt" extends "Sales Header" //36
+tableextension 71005 "ST SalesHeaderTabExt" extends "Sales Header" //36
 {
     fields
     {

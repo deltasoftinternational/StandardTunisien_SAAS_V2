@@ -1,4 +1,4 @@
-Page 70018 "ST Mandatory Dimension"
+page 71018 "ST Mandatory Dimension"
 {
 
     ApplicationArea = all;

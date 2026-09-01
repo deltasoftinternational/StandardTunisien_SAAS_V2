@@ -1,4 +1,4 @@
-page 70017 "Liste lignes reglements"
+page 71017 "Liste lignes reglements"
 {
     Caption = 'Liste lignes reglements';
     DeleteAllowed = false;

@@ -1,4 +1,4 @@
-enum 70008 "ST Option step"
+Enum 71008 "ST Option step"
 {
     Extensible = true;
     value(0; " ")

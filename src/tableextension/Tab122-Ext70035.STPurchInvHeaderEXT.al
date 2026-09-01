@@ -1,4 +1,4 @@
-tableextension 70035 "ST PurchInvHeaderEXT" extends "Purch. Inv. Header" //122
+tableextension 71035 "ST PurchInvHeaderEXT" extends "Purch. Inv. Header" //122
 {
     fields
     {

@@ -1,4 +1,4 @@
-pageextension 70012 "ST CustPostingGroupsPagExt" extends "Customer Posting Groups" //110
+pageextension 71012 "ST CustPostingGroupsPagExt" extends "Customer Posting Groups" //110
 {
     layout
     {

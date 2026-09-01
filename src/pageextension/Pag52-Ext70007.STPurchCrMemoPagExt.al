@@ -1,4 +1,4 @@
-pageextension 70007 "ST PurchCrMemoPagExt" extends "Purchase Credit Memo" //52
+pageextension 71007 "ST PurchCrMemoPagExt" extends "Purchase Credit Memo" //52
 {
     layout
     {

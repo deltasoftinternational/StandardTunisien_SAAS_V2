@@ -1,4 +1,4 @@
-pageextension 70035 "ST Posted Sales Credit Memo" extends "Posted Sales Credit Memo"//134
+pageextension 71035 "ST Posted Sales Credit Memo" extends "Posted Sales Credit Memo"//134
 {
 
     layout

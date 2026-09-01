@@ -1,4 +1,4 @@
-pageextension 70020 "ST AccountantRoleCenterPagExt" extends "Accountant Role Center" //9027
+pageextension 71020 "ST AccountantRoleCenterPagExt" extends "Accountant Role Center" //9027
 {
     layout
     {
@@ -114,7 +114,7 @@ pageextension 70020 "ST AccountantRoleCenterPagExt" extends "Accountant Role Cen
                        Caption = 'Journal Compte Client';
                        ApplicationArea = All;
 
-                       RunObject = Report 70021;//10813;
+                       RunObject = report 71021;//10813;
                    }
 
                    action("Vendor Journal")
@@ -122,7 +122,7 @@ pageextension 70020 "ST AccountantRoleCenterPagExt" extends "Accountant Role Cen
                        Caption = 'Journal Compte Fournisseur';
                        ApplicationArea = All;
 
-                       RunObject = Report 70022;//10814;
+                       RunObject = report 71022;//10814;
                    }*/
 
                 action("Balance clients")

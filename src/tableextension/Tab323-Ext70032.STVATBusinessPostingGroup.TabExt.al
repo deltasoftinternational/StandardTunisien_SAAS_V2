@@ -1,4 +1,4 @@
-tableextension 70042 "STVAT Business Posting Group" extends "VAT Business Posting Group"//323
+tableextension 71042 "STVAT Business Posting Group" extends "VAT Business Posting Group"//323
 {
 
     fields

@@ -1,4 +1,4 @@
-pageextension 70067 "ST Customer Ledger Entries EXT" extends "Customer Ledger Entries"//25
+pageextension 71067 "ST Customer Ledger Entries EXT" extends "Customer Ledger Entries"//25
 {
     layout
     {

@@ -1,4 +1,4 @@
-report 70039 "STGrand livre comptes generaux"
+report 71039 "STGrand livre comptes generaux"
 {
 
 

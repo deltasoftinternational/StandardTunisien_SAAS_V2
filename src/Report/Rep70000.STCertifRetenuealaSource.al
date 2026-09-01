@@ -1,4 +1,4 @@
-report 70000 "STCertif. Retenue a la Source"
+report 71000 "STCertif. Retenue a la Source"
 {
     Caption = 'Etat Certif. retenue à la source';
     DefaultLayout = RDLC;

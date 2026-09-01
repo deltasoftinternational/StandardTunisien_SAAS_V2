@@ -1,4 +1,4 @@
-report 70044 "Customer Trial Balance"
+report 71044 "Customer Trial Balance"
 {
     // Meg01.00 RZ (30-07-18): Numbers Format modification.(ALPTY-000022)
     DefaultLayout = RDLC;

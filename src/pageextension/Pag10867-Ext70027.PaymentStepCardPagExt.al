@@ -1,4 +1,4 @@
-pageextension 70027 "Payment Step Card PagExt" extends "Payment Step Card" //10867
+pageextension 71027 "Payment Step Card PagExt" extends "Payment Step Card" //10867
 {
     layout
     {

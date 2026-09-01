@@ -1,4 +1,4 @@
-table 70007 "ST Users Bank Accounts"
+table 71007 "ST Users Bank Accounts"
 {
 
     fields

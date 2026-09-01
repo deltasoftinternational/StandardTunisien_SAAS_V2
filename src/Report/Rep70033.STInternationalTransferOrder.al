@@ -1,4 +1,4 @@
-report 70033 "STInternational Transfer Order"
+report 71033 "STInternational Transfer Order"
 {
     // version Chayma DELTASOFT
 

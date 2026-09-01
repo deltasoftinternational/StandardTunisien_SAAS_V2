@@ -1,4 +1,4 @@
-tableextension 70043 "FA Setup" extends "FA Setup" //5603
+tableextension 71043 "FA Setup" extends "FA Setup" //5603
 {
 
     fields

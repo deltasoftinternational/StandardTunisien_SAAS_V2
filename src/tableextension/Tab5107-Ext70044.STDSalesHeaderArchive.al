@@ -1,4 +1,4 @@
-tableextension 70044 SalesHeaderArchive extends "Sales Header Archive"
+tableextension 71044 SalesHeaderArchive extends "Sales Header Archive"
 {
     fields
     {

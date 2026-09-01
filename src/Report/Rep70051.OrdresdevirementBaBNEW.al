@@ -1,4 +1,4 @@
-report 70051 "Ordres de virement BaB - NEW"
+report 71051 "Ordres de virement BaB - NEW"
 {
     DefaultLayout = RDLC;
     Caption = 'Ordres de virement Banque à Banque';

@@ -1,4 +1,4 @@
-pageextension 70081 "Item Charges" extends "Item Charges" //5800
+pageextension 71081 "Item Charges" extends "Item Charges" //5800
 {
     layout
     {

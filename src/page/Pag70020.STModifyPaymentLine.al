@@ -1,4 +1,4 @@
-page 70020 "ST Modify Payment Line"
+page 71020 "ST Modify Payment Line"
 {
     Caption = 'Modification de la date d''échéance';
     DeleteAllowed = false;

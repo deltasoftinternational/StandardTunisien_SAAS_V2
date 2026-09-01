@@ -1,4 +1,4 @@
-table 70010 "STRisqueClientFRs"
+table 71010 "STRisqueClientFRs"
 {
     Caption = 'RisqueClientFRs';
     DataClassification = ToBeClassified;

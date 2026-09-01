@@ -1,4 +1,4 @@
-report 70064 "Update Sales Docs Post. Grps."
+report 71064 "Update Sales Docs Post. Grps."
 {
     Caption = 'Modifier groupe compta document vente';
     ProcessingOnly = true;

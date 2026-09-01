@@ -1,4 +1,4 @@
-tableextension 70041 "StReason Code" extends "Reason Code" //231
+tableextension 71041 "StReason Code" extends "Reason Code" //231
 {
     fields
     {

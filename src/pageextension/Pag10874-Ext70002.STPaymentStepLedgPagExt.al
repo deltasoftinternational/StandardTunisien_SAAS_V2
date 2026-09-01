@@ -1,4 +1,4 @@
-pageextension 70002 "ST PaymentStepLedgPagExt" extends "Payment Step Ledger" //10874
+pageextension 71002 "ST PaymentStepLedgPagExt" extends "Payment Step Ledger" //10874
 {
     layout
     {

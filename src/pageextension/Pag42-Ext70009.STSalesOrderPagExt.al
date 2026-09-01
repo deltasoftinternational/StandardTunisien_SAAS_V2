@@ -1,4 +1,4 @@
-pageextension 70009 "ST SalesOrderPagExt" extends "Sales Order" //42
+pageextension 71009 "ST SalesOrderPagExt" extends "Sales Order" //42
 {
     layout
     {

@@ -1,4 +1,4 @@
-report 70009 "STAccount Schedule 2"
+report 71009 "STAccount Schedule 2"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/AccountSchedule.rdl';

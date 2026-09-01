@@ -1,5 +1,5 @@
 
-report 70045 "STGL Trial Balancetotalisation"
+report 71045 "STGL Trial Balancetotalisation"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/GLTrialBalance1.rdl';

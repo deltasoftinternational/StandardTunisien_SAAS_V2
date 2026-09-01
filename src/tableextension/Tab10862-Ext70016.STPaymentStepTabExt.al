@@ -1,4 +1,4 @@
-tableextension 70016 "ST Payment StepTabExt" extends "Payment Step" //10862
+tableextension 71016 "ST Payment StepTabExt" extends "Payment Step" //10862
 {
 
     fields

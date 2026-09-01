@@ -1,4 +1,4 @@
-report 70061 "BactchDueDate"
+report 71061 "BactchDueDate"
 {
     UsageCategory = Administration;
     ApplicationArea = All;

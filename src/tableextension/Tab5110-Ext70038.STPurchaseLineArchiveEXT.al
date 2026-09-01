@@ -1,4 +1,4 @@
-tableextension 70038 "ST PurchaseLineArchive EXT" extends "Purchase Line Archive" //5110
+tableextension 71038 "ST PurchaseLineArchive EXT" extends "Purchase Line Archive" //5110
 {
     fields
     {

@@ -1,4 +1,4 @@
-pageextension 70022 "ST GeneralLedgerSetupPagExt" extends "General Ledger Setup" //118
+pageextension 71022 "ST GeneralLedgerSetupPagExt" extends "General Ledger Setup" //118
 {
 
     layout

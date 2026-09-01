@@ -1,4 +1,4 @@
-report 70056 "Not Invoiced Receipt"
+report 71056 "Not Invoiced Receipt"
 {
     ApplicationArea = All;
     Caption = 'Réceptions non facturées';

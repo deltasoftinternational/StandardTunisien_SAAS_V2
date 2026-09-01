@@ -1,4 +1,4 @@
-pageextension 70021 "ST PaymentClassPagExt" Extends "Payment Class" //10864
+pageextension 71021 "ST PaymentClassPagExt" Extends "Payment Class" //10864
 {
 
     layout

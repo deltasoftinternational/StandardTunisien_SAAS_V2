@@ -1,4 +1,4 @@
-tableextension 70014 "ST GeneralLedgerSetupTabEXT" extends "General Ledger Setup" //98
+tableextension 71014 "ST GeneralLedgerSetupTabEXT" extends "General Ledger Setup" //98
 {
     fields
     {

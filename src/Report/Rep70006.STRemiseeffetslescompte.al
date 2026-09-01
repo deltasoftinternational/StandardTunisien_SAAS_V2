@@ -1,4 +1,4 @@
-report 70006 "STRemise effets à lescompte"
+report 71006 "STRemise effets à lescompte"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/Remiseeffetsàlescompte.rdl';

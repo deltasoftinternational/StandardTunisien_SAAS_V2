@@ -1,4 +1,4 @@
-table 70003 "ST Coffre"
+table 71003 "ST Coffre"
 {
     DrillDownPageID = "ST Liste des Coffres";
     LookupPageID = "ST Liste des Coffres";

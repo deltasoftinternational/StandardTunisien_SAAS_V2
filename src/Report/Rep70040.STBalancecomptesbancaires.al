@@ -1,4 +1,4 @@
-report 70040 "STBalance comptes bancaires"
+report 71040 "STBalance comptes bancaires"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;

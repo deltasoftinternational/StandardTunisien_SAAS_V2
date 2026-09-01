@@ -1,4 +1,4 @@
-report 70015 "ST G/L Detail Trial Balance" //10804
+report 71015 "ST G/L Detail Trial Balance" //10804
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/GLDetailTrialBalance.rdl';

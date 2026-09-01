@@ -1,4 +1,4 @@
-table 70005 "ST chéque"
+table 71005 "ST chéque"
 {
 
     fields

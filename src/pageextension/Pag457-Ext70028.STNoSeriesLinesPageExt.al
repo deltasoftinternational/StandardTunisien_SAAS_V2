@@ -1,4 +1,4 @@
-pageextension 70028 "STNo. Series LinesPageExt" extends "No. Series Lines" // 457
+pageextension 71028 "STNo. Series LinesPageExt" extends "No. Series Lines" // 457
 {
     layout
     {

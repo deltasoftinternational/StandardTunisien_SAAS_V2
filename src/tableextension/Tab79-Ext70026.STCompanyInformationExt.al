@@ -1,4 +1,4 @@
-tableextension 70026 "ST CompanyInformationExt" extends "Company Information" //79
+tableextension 71026 "ST CompanyInformationExt" extends "Company Information" //79
 {
     fields
     {

@@ -1,4 +1,4 @@
-codeunit 70000 "stPayment-Apply"  /* nous avons ajoute ce CU la necessite d'utilser les fonction onprem*/
+codeunit 71000 "stPayment-Apply"  /* nous avons ajoute ce CU la necessite d'utilser les fonction onprem*/
 {
     Permissions = TableData "Cust. Ledger Entry" = rm,
                   TableData "Vendor Ledger Entry" = rm;

@@ -1,4 +1,4 @@
-pageextension 70037 "STBank Account List" extends "Bank Account List"//371
+pageextension 71037 "STBank Account List" extends "Bank Account List"//371
 {
     layout
     {

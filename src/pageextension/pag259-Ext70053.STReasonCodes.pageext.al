@@ -1,4 +1,4 @@
-pageextension 70053 "STReason Codes" extends "Reason Codes"
+pageextension 71053 "STReason Codes" extends "Reason Codes"
 {
     layout
     {

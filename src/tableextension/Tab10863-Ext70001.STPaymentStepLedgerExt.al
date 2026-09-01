@@ -1,4 +1,4 @@
-tableextension 70001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //10863
+tableextension 71001 "ST PaymentStepLedgerExt" extends "Payment Step Ledger" //10863
 {
     fields
     {

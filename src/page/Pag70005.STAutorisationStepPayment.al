@@ -1,4 +1,4 @@
-page 70005 "STAutorisationStepPayment"
+page 71005 "STAutorisationStepPayment"
 {
     Caption = 'Autorisation Types Règlement';
     PageType = List;

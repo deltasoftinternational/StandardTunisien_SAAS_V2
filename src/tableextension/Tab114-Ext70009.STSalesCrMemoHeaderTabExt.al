@@ -1,4 +1,4 @@
-tableextension 70009 "ST SalesCrMemoHeaderTabExt" extends "Sales Cr.Memo Header" //114
+tableextension 71009 "ST SalesCrMemoHeaderTabExt" extends "Sales Cr.Memo Header" //114
 {
     fields
     {

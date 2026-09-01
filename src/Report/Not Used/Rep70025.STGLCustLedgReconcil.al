@@ -1,4 +1,4 @@
-report 70025 "ST GL/Cust. Ledg Reconcil" //10861
+report 71025 "ST GL/Cust. Ledg Reconcil" //10861
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/GLCustLedgerReconciliation.rdlc';

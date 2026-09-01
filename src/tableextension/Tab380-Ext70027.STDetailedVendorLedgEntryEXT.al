@@ -1,4 +1,4 @@
-tableextension 70027 "ST DetailedVendorLedgEntryEXT" extends "Detailed Vendor Ledg. Entry" //380
+tableextension 71027 "ST DetailedVendorLedgEntryEXT" extends "Detailed Vendor Ledg. Entry" //380
 {
     fields
     {

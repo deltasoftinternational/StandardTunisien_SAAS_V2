@@ -1,4 +1,4 @@
-page 70016 "Activities comptable"
+page 71016 "Activities comptable"
 {
     Caption = 'Activities';
     PageType = CardPart;

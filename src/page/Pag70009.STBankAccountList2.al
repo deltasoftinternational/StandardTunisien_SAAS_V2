@@ -1,4 +1,4 @@
-page 70009 "ST Bank Account List 2"
+page 71009 "ST Bank Account List 2"
 {
     Caption = 'Bank Account List 2';
     CardPageID = "Bank Account Card";

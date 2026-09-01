@@ -1,4 +1,4 @@
-tableextension 70007 "ST VEndorPosGroupTabExt" extends "Vendor Posting Group" //93
+tableextension 71007 "ST VEndorPosGroupTabExt" extends "Vendor Posting Group" //93
 {
     fields
     {

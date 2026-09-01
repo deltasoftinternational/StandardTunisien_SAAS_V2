@@ -1,4 +1,4 @@
-page 70013 "STRisqueFrs"
+page 71013 "STRisqueFrs"
 {
 
     Caption = 'Risque Fournisseur';

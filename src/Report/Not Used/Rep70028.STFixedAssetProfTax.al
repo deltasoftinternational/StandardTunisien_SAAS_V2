@@ -1,4 +1,4 @@
-report 70028 "ST Fixed Asset-Prof Tax"
+report 71028 "ST Fixed Asset-Prof Tax"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/FixedAssetProfessionalTax.rdlc';

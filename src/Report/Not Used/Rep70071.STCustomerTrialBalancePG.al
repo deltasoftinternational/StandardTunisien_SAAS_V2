@@ -1,4 +1,4 @@
-report 70071 "STCustomer Trial Balance/PG"
+report 71071 "STCustomer Trial Balance/PG"
 {
     //OLD STCustomer Trial Balance/PG
     DefaultLayout = RDLC;

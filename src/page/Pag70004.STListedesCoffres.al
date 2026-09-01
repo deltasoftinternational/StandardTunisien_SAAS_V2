@@ -1,4 +1,4 @@
-page 70004 "ST Liste des Coffres"
+page 71004 "ST Liste des Coffres"
 {
     Caption = 'Liste des coffres';
     PageType = List;

@@ -1,4 +1,4 @@
-report 70049 "ST LETTRECHEQUEAMEN"
+report 71049 "ST LETTRECHEQUEAMEN"
 {
     DefaultLayout = RDLC;
     caption = ' Lettre de chèque';

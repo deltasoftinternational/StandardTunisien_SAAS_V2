@@ -1,4 +1,4 @@
-report 70026 "ST GL/Vend. Ledger Reconcil" //10863
+report 71026 "ST GL/Vend. Ledger Reconcil" //10863
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/GLVendLedgerReconciliation.rdlc';

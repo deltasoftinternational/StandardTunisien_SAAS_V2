@@ -1,4 +1,4 @@
-tableextension 70030 "ST Territory EXT" extends Territory //286
+tableextension 71030 "ST Territory EXT" extends Territory //286
 {
     fields
     {

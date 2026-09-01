@@ -1,4 +1,4 @@
-page 70003 "ST Autorisation Etape"
+page 71003 "ST Autorisation Etape"
 {
     Caption = 'Autorisation étape';
     PageType = List;

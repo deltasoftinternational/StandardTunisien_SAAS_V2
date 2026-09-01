@@ -1,4 +1,4 @@
-report 70063 "STPosted Retenue a la Source"
+report 71063 "STPosted Retenue a la Source"
 {
     Caption = 'Retenue à la source';
     DefaultLayout = RDLC;

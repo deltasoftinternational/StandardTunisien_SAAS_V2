@@ -1,4 +1,4 @@
-tableextension 70000 "ST PaymentStatusExt" extends "Payment Status" //10861
+tableextension 71000 "ST PaymentStatusExt" extends "Payment Status" //10861
 {
     fields
     {

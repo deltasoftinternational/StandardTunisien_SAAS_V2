@@ -1,4 +1,4 @@
-page 70001 "ST Groupe Retenue"
+page 71001 "ST Groupe Retenue"
 {
     PageType = List;
     SourceTable = "ST Groupe retenue";

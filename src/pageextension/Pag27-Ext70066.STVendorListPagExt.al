@@ -1,4 +1,4 @@
-pageextension 70066 "STVendor List PagExt" extends "Vendor List" //27
+pageextension 71066 "STVendor List PagExt" extends "Vendor List" //27
 {
     layout
     {

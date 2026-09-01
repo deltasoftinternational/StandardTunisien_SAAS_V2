@@ -1,4 +1,4 @@
-pageextension 70042 "Detailed Cust. Ledg. Entries" extends "Detailed Cust. Ledg. Entries" //573
+pageextension 71042 "Detailed Cust. Ledg. Entries" extends "Detailed Cust. Ledg. Entries" //573
 {
     layout
     {

@@ -1,4 +1,4 @@
-table 70009 "STSetupRisqueClientFrs"
+table 71009 "STSetupRisqueClientFrs"
 {
     Caption = 'STSetupRisqueClientFrs';
     DataClassification = ToBeClassified;

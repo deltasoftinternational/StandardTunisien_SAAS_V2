@@ -1,4 +1,4 @@
-pageextension 70047 "Purchase Statistics" extends "Purchase Statistics" //161
+pageextension 71047 "Purchase Statistics" extends "Purchase Statistics" //161
 {
     layout
     {

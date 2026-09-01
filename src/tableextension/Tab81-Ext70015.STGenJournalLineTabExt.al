@@ -1,4 +1,4 @@
-tableextension 70015 "ST GenJournalLineTabExt" extends "Gen. Journal Line" //81
+tableextension 71015 "ST GenJournalLineTabExt" extends "Gen. Journal Line" //81
 {
     fields
     {

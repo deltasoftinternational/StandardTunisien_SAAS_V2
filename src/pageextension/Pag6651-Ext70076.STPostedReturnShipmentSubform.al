@@ -1,4 +1,4 @@
-pageextension 70076 "STPosted ReturnShipmentSubform" extends "Posted Return Shipment Subform"//6651
+pageextension 71076 "STPosted ReturnShipmentSubform" extends "Posted Return Shipment Subform"//6651
 {
     trigger OnDeleteRecord(): Boolean
     begin

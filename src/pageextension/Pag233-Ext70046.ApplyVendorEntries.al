@@ -1,4 +1,4 @@
-pageextension 70046 "Apply Vendor Entries" extends "Apply Vendor Entries" //233
+pageextension 71046 "Apply Vendor Entries" extends "Apply Vendor Entries" //233
 {
     layout
     {

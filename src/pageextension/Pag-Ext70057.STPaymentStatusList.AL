@@ -1,4 +1,4 @@
-pageextension 70057 "ST Payment Status List" extends "Payment Status List"
+pageextension 71057 "ST Payment Status List" extends "Payment Status List"
 {
     layout
     {

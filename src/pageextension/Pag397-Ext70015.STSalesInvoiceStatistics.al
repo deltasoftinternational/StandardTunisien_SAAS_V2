@@ -1,4 +1,4 @@
-pageextension 70015 "ST SalesInvoiceStatistics" extends "Sales Invoice Statistics" //397
+pageextension 71015 "ST SalesInvoiceStatistics" extends "Sales Invoice Statistics" //397
 {
     layout
     {

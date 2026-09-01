@@ -1,4 +1,4 @@
-enum 70003 "ST Type Borderau ENUM"
+Enum 71003 "ST Type Borderau ENUM"
 {
     Extensible = true;
 

@@ -1,4 +1,4 @@
-tableextension 70028 "ItemEXT" extends Item //27
+tableextension 71028 "ItemEXT" extends Item //27
 {
     fields
     {

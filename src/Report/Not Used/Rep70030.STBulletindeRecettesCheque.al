@@ -1,4 +1,4 @@
-report 70030 "STBulletin de Recettes-Cheque"
+report 71030 "STBulletin de Recettes-Cheque"
 {
 
     DefaultLayout = RDLC;

@@ -1,4 +1,4 @@
-enum 70005 "ST Modele cheque"
+Enum 71005 "ST Modele cheque"
 {
     Extensible = true;
 

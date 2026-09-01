@@ -1,4 +1,4 @@
-tableextension 70045 "STNameValueBuffer" extends "Name/Value Buffer" //832
+tableextension 71045 "STNameValueBuffer" extends "Name/Value Buffer" //832
 {
     fields
     {

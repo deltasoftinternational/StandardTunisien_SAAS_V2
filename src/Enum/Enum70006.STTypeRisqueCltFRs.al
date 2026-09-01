@@ -1,4 +1,4 @@
-enum 70006 "STTypeRisqueCltFRs"
+Enum 71006 "STTypeRisqueCltFRs"
 {
     Extensible = false;
 

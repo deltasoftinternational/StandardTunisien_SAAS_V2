@@ -1,4 +1,4 @@
-tableextension 70034 "ST  PurchRcptLine EXT" extends "Purch. Rcpt. Line" //121
+tableextension 71034 "ST  PurchRcptLine EXT" extends "Purch. Rcpt. Line" //121
 {
     fields
     {

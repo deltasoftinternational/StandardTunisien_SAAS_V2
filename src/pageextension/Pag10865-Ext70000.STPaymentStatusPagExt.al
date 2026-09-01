@@ -1,4 +1,4 @@
-pageextension 70000 "ST PaymentStatusPagExt" extends "Payment Status" //10865
+pageextension 71000 "ST PaymentStatusPagExt" extends "Payment Status" //10865
 {
     layout
     {

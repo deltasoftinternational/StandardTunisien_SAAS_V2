@@ -1,4 +1,4 @@
-pageextension 70034 "ST Posted Sales Invoice" extends "Posted Sales Invoice"
+pageextension 71034 "ST Posted Sales Invoice" extends "Posted Sales Invoice"
 
 {
     layout

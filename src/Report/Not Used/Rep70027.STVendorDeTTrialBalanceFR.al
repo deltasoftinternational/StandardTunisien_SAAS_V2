@@ -1,4 +1,4 @@
-report 70027 "ST Vendor DeT Trial Balance FR"
+report 71027 "ST Vendor DeT Trial Balance FR"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/VendorDetailTrialBalanceFR.rdlc';

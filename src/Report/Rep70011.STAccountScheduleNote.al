@@ -1,4 +1,4 @@
-report 70011 "STAccount Schedule Note"
+report 71011 "STAccount Schedule Note"
 {
     // //Delta 01 27/10/2016 commenter par Soumaya
     DefaultLayout = RDLC;

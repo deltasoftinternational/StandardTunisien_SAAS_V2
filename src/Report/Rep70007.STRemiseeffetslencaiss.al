@@ -1,4 +1,4 @@
-report 70007 "STRemise effets à lencaiss"
+report 71007 "STRemise effets à lencaiss"
 {
     Caption = 'Remise effets à lencaiss';
     DefaultLayout = RDLC;

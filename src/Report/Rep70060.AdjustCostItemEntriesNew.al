@@ -1,4 +1,4 @@
-report 70060 "Adjust Cost - Item Entries DLT"
+report 71060 "Adjust Cost - Item Entries DLT"
 {
     ProcessingOnly = true;
     UsageCategory = Tasks;

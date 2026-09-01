@@ -1,4 +1,4 @@
-pageextension 70033 "ST SalesQuoteSubForm" extends "Sales Quote Subform"
+pageextension 71033 "ST SalesQuoteSubForm" extends "Sales Quote Subform"
 {
 
     layout

@@ -1,4 +1,4 @@
-page 70014 "STSetupRisqueClientFrs"
+page 71014 "STSetupRisqueClientFrs"
 {
 
     Caption = 'Paramètre Risque Client/Fournisseur';

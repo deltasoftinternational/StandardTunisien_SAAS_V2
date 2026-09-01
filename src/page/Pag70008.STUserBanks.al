@@ -1,4 +1,4 @@
-page 70008 "ST User Banks"
+page 71008 "ST User Banks"
 {
     Caption = 'User Banks';
     DelayedInsert = true;

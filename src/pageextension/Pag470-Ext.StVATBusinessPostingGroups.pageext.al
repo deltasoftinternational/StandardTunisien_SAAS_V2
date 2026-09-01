@@ -1,4 +1,4 @@
-pageextension 70054 "STVAT Business Posting Groups" extends "VAT Business Posting Groups" //470
+pageextension 71054 "STVAT Business Posting Groups" extends "VAT Business Posting Groups" //470
 {
     layout
     {

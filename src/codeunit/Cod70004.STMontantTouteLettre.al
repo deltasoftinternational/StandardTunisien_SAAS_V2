@@ -1,4 +1,4 @@
-Codeunit 70004 "ST MontantTouteLettre"
+codeunit 71004 "ST MontantTouteLettre"
 {
 
     trigger OnRun()

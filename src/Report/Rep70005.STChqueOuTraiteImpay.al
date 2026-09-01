@@ -1,4 +1,4 @@
-report 70005 "STChèque Ou Traite Impayé"
+report 71005 "STChèque Ou Traite Impayé"
 {
     DefaultLayout = RDLC;
     UsageCategory = ReportsAndAnalysis;

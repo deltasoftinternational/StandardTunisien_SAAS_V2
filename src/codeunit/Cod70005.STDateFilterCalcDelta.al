@@ -1,4 +1,4 @@
-codeunit 70005 "ST DateFilter-Calc Delta"
+codeunit 71005 "ST DateFilter-Calc Delta"
 {
     TableNo = STRisqueClientFRs;
 

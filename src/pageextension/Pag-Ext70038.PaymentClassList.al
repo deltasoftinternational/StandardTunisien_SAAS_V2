@@ -1,4 +1,4 @@
-pageextension 70038 "Payment Class List" extends "Payment Class List"
+pageextension 71038 "Payment Class List" extends "Payment Class List"
 {
     layout
     {

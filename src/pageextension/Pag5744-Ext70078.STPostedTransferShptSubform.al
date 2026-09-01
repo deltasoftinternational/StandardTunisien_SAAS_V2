@@ -1,4 +1,4 @@
-pageextension 70078 "STPosted Transfer Shpt.Subform" extends "Posted Transfer Shpt. Subform"//5744
+pageextension 71078 "STPosted Transfer Shpt.Subform" extends "Posted Transfer Shpt. Subform"//5744
 {
     trigger OnDeleteRecord(): Boolean
     begin

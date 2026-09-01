@@ -1,4 +1,4 @@
-report 70017 "Balance fournisseurs"
+report 71017 "Balance fournisseurs"
 {
 
     DefaultLayout = RDLC;

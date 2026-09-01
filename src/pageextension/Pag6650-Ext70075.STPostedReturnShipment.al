@@ -1,4 +1,4 @@
-pageextension 70075 "STPosted Return Shipment" extends "Posted Return Shipment"//6650
+pageextension 71075 "STPosted Return Shipment" extends "Posted Return Shipment"//6650
 {
     trigger OnDeleteRecord(): Boolean
     begin

@@ -1,4 +1,4 @@
-tableextension 70012 "ST BankAccountTabExt" extends "Bank Account" //270
+tableextension 71012 "ST BankAccountTabExt" extends "Bank Account" //270
 {
 
 

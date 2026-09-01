@@ -1,4 +1,4 @@
-report 70057 "Shipment Not Invoiced"
+report 71057 "Shipment Not Invoiced"
 {
     // 
     DefaultLayout = RDLC;

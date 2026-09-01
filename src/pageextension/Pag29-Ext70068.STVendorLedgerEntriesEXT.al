@@ -1,4 +1,4 @@
-pageextension 70068 "ST Vendor Ledger Entries EXT" extends "Vendor Ledger Entries"//29
+pageextension 71068 "ST Vendor Ledger Entries EXT" extends "Vendor Ledger Entries"//29
 {
     layout
     {

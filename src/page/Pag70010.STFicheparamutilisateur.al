@@ -1,4 +1,4 @@
-page 70010 "STFiche param utilisateur"
+page 71010 "STFiche param utilisateur"
 {
     Caption = 'Fiche Param utilisateur';
     PageType = Card;

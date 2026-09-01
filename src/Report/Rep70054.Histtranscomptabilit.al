@@ -1,4 +1,4 @@
-report 70054 "Hist trans comptabilité"
+report 71054 "Hist trans comptabilité"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/HistTransCompt.rdl';

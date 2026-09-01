@@ -1,4 +1,4 @@
-report 70022 "ST Vendor Journal" //10814
+report 71022 "ST Vendor Journal" //10814
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/VendorJournal.rdlc';

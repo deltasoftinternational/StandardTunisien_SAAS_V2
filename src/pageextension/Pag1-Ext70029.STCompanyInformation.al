@@ -1,4 +1,4 @@
-pageextension 70029 "ST CompanyInformation" extends "Company Information" //1
+pageextension 71029 "ST CompanyInformation" extends "Company Information" //1
 {
     layout
     {

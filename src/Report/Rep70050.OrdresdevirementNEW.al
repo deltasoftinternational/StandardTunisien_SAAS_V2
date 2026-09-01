@@ -1,4 +1,4 @@
-report 70050 "Ordres de virement - NEW"
+report 71050 "Ordres de virement - NEW"
 {
     DefaultLayout = RDLC;
     Caption = 'Ordres de virement';

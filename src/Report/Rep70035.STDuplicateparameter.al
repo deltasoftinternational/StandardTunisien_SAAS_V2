@@ -1,4 +1,4 @@
-report 70035 "STDuplicate parameter"
+report 71035 "STDuplicate parameter"
 {
     Caption = 'Duplicate parameter';
     ProcessingOnly = true;

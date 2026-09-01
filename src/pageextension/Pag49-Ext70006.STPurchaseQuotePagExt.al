@@ -1,4 +1,4 @@
-pageextension 70006 "ST PurchaseQuotePagExt" extends "Purchase Quote" //49
+pageextension 71006 "ST PurchaseQuotePagExt" extends "Purchase Quote" //49
 {
     layout
     {

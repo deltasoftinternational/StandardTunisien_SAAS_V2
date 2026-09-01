@@ -1,4 +1,4 @@
-enum 70002 "ST Order Type Enum"
+Enum 71002 "ST Order Type Enum"
 {
     Extensible = true;
 

@@ -1,4 +1,4 @@
-page 70012 "STRisqueClient"
+page 71012 "STRisqueClient"
 {
 
     Caption = 'Risque client';

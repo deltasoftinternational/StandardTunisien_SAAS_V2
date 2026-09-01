@@ -1,4 +1,4 @@
-pageextension 70008 "ST SalesQuotePagExt" extends "Sales Quote" //41
+pageextension 71008 "ST SalesQuotePagExt" extends "Sales Quote" //41
 {
     layout
     {

@@ -1,4 +1,4 @@
-report 70041 "STGrandlivre comptes bancaires"
+report 71041 "STGrandlivre comptes bancaires"
 {
 
     DefaultLayout = RDLC;

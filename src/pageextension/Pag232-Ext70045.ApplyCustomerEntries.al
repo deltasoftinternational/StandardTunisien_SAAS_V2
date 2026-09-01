@@ -1,4 +1,4 @@
-pageextension 70045 "Apply Customer Entries" extends "Apply Customer Entries" //232
+pageextension 71045 "Apply Customer Entries" extends "Apply Customer Entries" //232
 {
     layout
     {

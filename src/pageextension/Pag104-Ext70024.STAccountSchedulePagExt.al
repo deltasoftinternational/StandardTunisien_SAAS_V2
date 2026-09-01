@@ -1,4 +1,4 @@
-pageextension 70024 "ST AccountSchedulePagExt" extends "Account Schedule" //104
+pageextension 71024 "ST AccountSchedulePagExt" extends "Account Schedule" //104
 {
     layout
     {

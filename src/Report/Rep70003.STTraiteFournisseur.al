@@ -1,4 +1,4 @@
-report 70003 "STTraite Fournisseur"
+report 71003 "STTraite Fournisseur"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/TraiteFournisseur.rdl';

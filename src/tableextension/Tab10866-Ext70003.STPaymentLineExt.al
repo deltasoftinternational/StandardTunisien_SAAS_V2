@@ -1,4 +1,4 @@
-tableextension 70003 "ST PaymentLineExt" extends "Payment Line" //10866
+tableextension 71003 "ST PaymentLineExt" extends "Payment Line" //10866
 {
     fields
     {

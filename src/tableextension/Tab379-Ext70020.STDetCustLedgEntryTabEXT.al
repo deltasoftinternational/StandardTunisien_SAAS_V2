@@ -1,4 +1,4 @@
-tableextension 70020 "ST DetCustLedgEntryTabEXT" extends "Detailed Cust. Ledg. Entry" //379
+tableextension 71020 "ST DetCustLedgEntryTabEXT" extends "Detailed Cust. Ledg. Entry" //379
 {
     fields
     {

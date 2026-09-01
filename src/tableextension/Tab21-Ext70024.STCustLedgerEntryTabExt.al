@@ -1,4 +1,4 @@
-tableextension 70024 "ST Cust. Ledger Entry TabExt" extends "Cust. Ledger Entry" //21
+tableextension 71024 "ST Cust. Ledger Entry TabExt" extends "Cust. Ledger Entry" //21
 {
     fields
     {

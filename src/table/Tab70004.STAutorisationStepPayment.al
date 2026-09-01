@@ -1,4 +1,4 @@
-table 70004 "STAutorisationStepPayment"
+table 71004 "STAutorisationStepPayment"
 {
     DataClassification = ToBeClassified;
 

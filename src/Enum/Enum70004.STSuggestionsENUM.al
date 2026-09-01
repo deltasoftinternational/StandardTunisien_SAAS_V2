@@ -1,4 +1,4 @@
-enum 70004 "ST Suggestions ENUM"
+Enum 71004 "ST Suggestions ENUM"
 {
     Extensible = true;
 

@@ -1,4 +1,4 @@
-pageextension 70049 "STVendor Bank Account List" extends "Vendor Bank Account List" //426
+pageextension 71049 "STVendor Bank Account List" extends "Vendor Bank Account List" //426
 {
     layout
     {

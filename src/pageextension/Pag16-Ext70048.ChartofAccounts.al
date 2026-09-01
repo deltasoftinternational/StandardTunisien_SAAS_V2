@@ -1,4 +1,4 @@
-pageextension 70048 "STChart of Accounts" extends "Chart of Accounts" //16
+pageextension 71048 "STChart of Accounts" extends "Chart of Accounts" //16
 {
     layout
     {

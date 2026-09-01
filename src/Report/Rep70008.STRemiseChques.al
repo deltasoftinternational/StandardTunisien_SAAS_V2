@@ -1,4 +1,4 @@
-report 70008 "STRemise Chèques"
+report 71008 "STRemise Chèques"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/RemiseChèques.rdl';

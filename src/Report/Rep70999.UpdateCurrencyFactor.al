@@ -1,4 +1,4 @@
-report 70999 "Update Currency Factor"
+report 71999 "Update Currency Factor"
 {
     ApplicationArea = Hide;
     Caption = 'Mise à jour taux de change facture achat enregistrée';

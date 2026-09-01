@@ -1,4 +1,4 @@
-report 70058 "Ordre de Virement Detaillé ALM"
+report 71058 "Ordre de Virement Detaillé ALM"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/Ordre de Virement Detaillé ALM.rdl';

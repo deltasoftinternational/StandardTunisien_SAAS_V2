@@ -1,4 +1,4 @@
-pageextension 70055 "ST G/L Account Card" extends "G/L Account Card" //17
+pageextension 71055 "ST G/L Account Card" extends "G/L Account Card" //17
 {
     layout
     {

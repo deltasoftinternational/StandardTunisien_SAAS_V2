@@ -1,4 +1,4 @@
-tableextension 70019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
+tableextension 71019 "ST PaymentHeaderTabExt" extends "Payment Header" //10865
 {
     fields
     {

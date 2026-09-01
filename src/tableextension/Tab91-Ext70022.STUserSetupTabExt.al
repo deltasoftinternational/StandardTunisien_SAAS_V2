@@ -1,4 +1,4 @@
-tableextension 70022 "ST UserSetupTabExt" extends "User Setup" //91
+tableextension 71022 "ST UserSetupTabExt" extends "User Setup" //91
 {
 
     fields

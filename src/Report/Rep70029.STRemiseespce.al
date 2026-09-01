@@ -1,4 +1,4 @@
-report 70029 "STRemise espèce"
+report 71029 "STRemise espèce"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/Remiseespèce.rdl';

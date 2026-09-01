@@ -1,4 +1,4 @@
-report 70031 "STBordereau de Trsf CHQ - NEW"
+report 71031 "STBordereau de Trsf CHQ - NEW"
 {
 
     UsageCategory = ReportsAndAnalysis;

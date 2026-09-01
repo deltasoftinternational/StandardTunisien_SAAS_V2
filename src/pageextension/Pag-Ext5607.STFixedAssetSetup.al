@@ -1,4 +1,4 @@
-pageextension 70058 "ST Fixed Asset Setup" extends "Fixed Asset Setup"
+pageextension 71058 "ST Fixed Asset Setup" extends "Fixed Asset Setup"
 {
 
     layout

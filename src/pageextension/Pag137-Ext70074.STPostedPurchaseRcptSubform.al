@@ -1,4 +1,4 @@
-pageextension 70074 "STPosted Purchase Rcpt.Subform" extends "Posted Purchase Rcpt. Subform"//137
+pageextension 71074 "STPosted Purchase Rcpt.Subform" extends "Posted Purchase Rcpt. Subform"//137
 {
     trigger OnDeleteRecord(): Boolean
     begin

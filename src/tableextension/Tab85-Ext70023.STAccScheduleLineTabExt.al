@@ -1,4 +1,4 @@
-tableextension 70023 "ST Acc.ScheduleLineTabExt" extends "Acc. Schedule Line" //85
+tableextension 71023 "ST Acc.ScheduleLineTabExt" extends "Acc. Schedule Line" //85
 {
     fields
     {

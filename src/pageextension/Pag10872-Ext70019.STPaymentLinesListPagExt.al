@@ -1,4 +1,4 @@
-pageextension 70019 "ST PaymentLinesListPagExt" extends "Payment Lines List" //10872
+pageextension 71019 "ST PaymentLinesListPagExt" extends "Payment Lines List" //10872
 {
     layout
     {

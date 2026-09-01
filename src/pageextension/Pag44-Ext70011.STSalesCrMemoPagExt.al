@@ -1,4 +1,4 @@
-pageextension 70011 "ST SalesCrMemoPagExt" extends "Sales Credit Memo" //44
+pageextension 71011 "ST SalesCrMemoPagExt" extends "Sales Credit Memo" //44
 {
     layout
     {

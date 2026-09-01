@@ -1,4 +1,4 @@
-report 70012 "STJournal general"
+report 71012 "STJournal general"
 {
 
 

@@ -1,4 +1,4 @@
-pageextension 70043 "Detailed Vendor Ledg. Entries" extends "Detailed Vendor Ledg. Entries" //574
+pageextension 71043 "Detailed Vendor Ledg. Entries" extends "Detailed Vendor Ledg. Entries" //574
 {
     layout
     {

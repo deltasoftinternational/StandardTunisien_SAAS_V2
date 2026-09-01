@@ -1,4 +1,4 @@
-tableextension 70036 "ST PurchCrMemoHdrEXT" extends "Purch. Cr. Memo Hdr." //124
+tableextension 71036 "ST PurchCrMemoHdrEXT" extends "Purch. Cr. Memo Hdr." //124
 {
     fields
     {

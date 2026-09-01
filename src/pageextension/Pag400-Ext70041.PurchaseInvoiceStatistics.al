@@ -1,4 +1,4 @@
-pageextension 70041 "Purchase Invoice Statistics" extends "Purchase Invoice Statistics" //400
+pageextension 71041 "Purchase Invoice Statistics" extends "Purchase Invoice Statistics" //400
 {
     layout
     {

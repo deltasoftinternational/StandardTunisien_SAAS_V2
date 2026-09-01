@@ -1,4 +1,4 @@
-report 70067 EffetEscToPaye
+report 71067 EffetEscToPaye
 {
     ApplicationArea = All;
     Caption = 'EffetEscToPaye';

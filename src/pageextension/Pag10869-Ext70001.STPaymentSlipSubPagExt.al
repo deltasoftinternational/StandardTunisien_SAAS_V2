@@ -1,4 +1,4 @@
-pageextension 70001 "ST PaymentSlipSubPagExt" extends "Payment Slip Subform" //10869
+pageextension 71001 "ST PaymentSlipSubPagExt" extends "Payment Slip Subform" //10869
 {
     layout
     {

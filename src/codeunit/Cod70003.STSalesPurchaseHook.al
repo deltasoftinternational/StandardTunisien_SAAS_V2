@@ -1,4 +1,4 @@
-codeunit 70003 "ST Sales&PurchaseHook"
+codeunit 71003 "ST Sales&PurchaseHook"
 {
     procedure SalesPostTimbre(VAR SalesHeader: Record "Sales Header"; GenJnlPostLine: Codeunit "Gen. Jnl.-Post Line"; GenJOurnalLine: Record "Gen. Journal Line")
 

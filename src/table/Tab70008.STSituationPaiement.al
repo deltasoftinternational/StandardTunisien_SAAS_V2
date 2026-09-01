@@ -1,4 +1,4 @@
-table 70008 "STSituationPaiement"
+table 71008 "STSituationPaiement"
 {
     Caption = 'ST Situation Paiement';
 

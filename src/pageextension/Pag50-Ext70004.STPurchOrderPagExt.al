@@ -1,4 +1,4 @@
-pageextension 70004 "ST PurchOrderPagExt" extends "Purchase Order" //50
+pageextension 71004 "ST PurchOrderPagExt" extends "Purchase Order" //50
 {
     layout
     {

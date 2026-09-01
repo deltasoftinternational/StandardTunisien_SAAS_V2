@@ -1,4 +1,4 @@
-report 70052 "Bulletin de Dépense Espèce"
+report 71052 "Bulletin de Dépense Espèce"
 {
     // version ENCAISSEMENT-DECAISSEMENT
     caption = 'Bulletin de Dépense';

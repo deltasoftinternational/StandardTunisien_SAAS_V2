@@ -1,4 +1,4 @@
-pageextension 70018 "ST PaymentSlipListPagExt" extends "Payment Slip List" //10870
+pageextension 71018 "ST PaymentSlipListPagExt" extends "Payment Slip List" //10870
 {
     layout
     {

@@ -1,4 +1,4 @@
-report 70002 "STPièce de Paiement"
+report 71002 "STPièce de Paiement"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;

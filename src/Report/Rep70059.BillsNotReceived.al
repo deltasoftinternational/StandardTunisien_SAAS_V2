@@ -1,4 +1,4 @@
-report 70059 "Bills Not Received"
+report 71059 "Bills Not Received"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;

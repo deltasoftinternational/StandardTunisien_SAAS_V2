@@ -1,4 +1,4 @@
-report 70024 "Relevé de compte général"
+report 71024 "Relevé de compte général"
 {
 
     DefaultLayout = RDLC;

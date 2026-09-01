@@ -1,4 +1,4 @@
-report 70034 "Vendor Trial Balance PG"
+report 71034 "Vendor Trial Balance PG"
 {
     // Meg01.00 RZ (30-07-18): Numbers Format modification.(ALPTY-000022)
     //YB 300424

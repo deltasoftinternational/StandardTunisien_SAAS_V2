@@ -1,4 +1,4 @@
-report 70047 "STbatch type reglement"
+report 71047 "STbatch type reglement"
 {
 
 

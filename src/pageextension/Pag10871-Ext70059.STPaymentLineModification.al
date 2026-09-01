@@ -1,4 +1,4 @@
-pageextension 70059 "STPaymentLineModification" extends "Payment Line Modification"  //10871
+pageextension 71059 "STPaymentLineModification" extends "Payment Line Modification"  //10871
 {
     layout
     {

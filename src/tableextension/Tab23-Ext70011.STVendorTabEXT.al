@@ -1,4 +1,4 @@
-tableextension 70011 "STVendorTabEXT" extends Vendor //23
+tableextension 71011 "STVendorTabEXT" extends Vendor //23
 {
     fields
     {

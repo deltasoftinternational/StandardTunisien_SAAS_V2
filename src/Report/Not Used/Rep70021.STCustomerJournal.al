@@ -1,4 +1,4 @@
-report 70021 "ST Customer Journal" //10813
+report 71021 "ST Customer Journal" //10813
 {
     DefaultLayout = RDLC;
     RDLCLayout = './src/report/RDLC/CustomerJournal.rdlc';

@@ -1,4 +1,4 @@
-table 70006 "ST Référence chèque"
+table 71006 "ST Référence chèque"
 {
 
 

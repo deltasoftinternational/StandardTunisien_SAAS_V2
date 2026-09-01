@@ -1,4 +1,4 @@
-tableextension 70029 "ST Purchase Line EXT" extends "Purchase Line"//39
+tableextension 71029 "ST Purchase Line EXT" extends "Purchase Line"//39
 {
     fields
     {
